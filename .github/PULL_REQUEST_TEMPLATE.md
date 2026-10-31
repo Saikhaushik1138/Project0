@@ -1,37 +1,18 @@
-<!--
+## Problem and resulting behavior
 
-Thank you for your contribution!
+Describe the concrete trigger, current behavior, and what changes for the user.
 
-Get early feedback through
-- Dronecode Discord: https://discord.gg/dronecode
-- PX4 Discuss: http://discuss.px4.io/
-- opening a draft pr and sharing the link
+## Validation
 
--->
+List the commands run and their results. Distinguish unit/UDP tests, in-memory
+benchmarks, SITL checks, and hardware work. Include the host and evidence path
+for any new simulation or performance claim.
 
-### Solved Problem
-When ... I found that ...
+## Compatibility and research impact
 
-Fixes #{Github issue ID}
+Note protocol/configuration changes, migrations, dependencies, and limitations.
+If measurements change, state the units, sample window, and comparison method.
 
-### Solution
-- Add ... for ...
-- Refactor ...
-
-### Changelog Entry
-For release notes:
-```
-Feature/Bugfix XYZ
-New parameter: XYZ_Z
-Documentation: Need to clarify page ... / done, read docs.px4.io/...
-```
-
-### Alternatives
-We could also ...
-
-### Test coverage
-- Unit/integration test: ...
-- Simulation/hardware testing logs: https://review.px4.io/
-
-### Context
-Related links, screenshot before/after, video
+- [ ] Project tests pass: `python -m unittest discover -s tests -v`.
+- [ ] Documentation describes the final behavior.
+- [ ] Logs and examples contain no private keys or sensitive flight data.

@@ -80,6 +80,21 @@ class LauncherTests(unittest.TestCase):
             self.assertEqual(launcher.observed_systems(path), {1, 2})
             self.assertFalse({1, 2, 3} <= launcher.observed_systems(path))
 
+    def test_malformed_status_cannot_satisfy_readiness_or_crash_startup(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "status.json"
+            values = [None, [], "status", 3,
+                      {"heartbeat_system_ids": None},
+                      {"heartbeat_system_ids": "12"},
+                      {"heartbeat_system_ids": [True, 2]},
+                      {"heartbeat_system_ids": [1.5]},
+                      {"heartbeat_system_ids": ["1", "2"]},
+                      {"heartbeat_system_ids": [0, 65]}]
+            for value in values:
+                with self.subTest(value=value):
+                    path.write_text(json.dumps(value))
+                    self.assertEqual(launcher.observed_systems(path), set())
+
 
 if __name__ == "__main__":
     unittest.main()

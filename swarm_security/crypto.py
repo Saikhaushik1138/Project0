@@ -105,7 +105,10 @@ class EnvelopeCodec:
             raise ValueError("expected a 32-byte key and drone ID 1..254")
         if security not in PROFILES or direction not in DIRECTIONS:
             raise ValueError("unsupported profile or direction")
-        if max_age <= 0 or max_sessions < 1:
+        if (not isinstance(max_age, (int, float)) or isinstance(max_age, bool)
+                or not math.isfinite(max_age) or max_age <= 0
+                or not isinstance(max_sessions, int) or isinstance(max_sessions, bool)
+                or max_sessions < 1):
             raise ValueError("invalid replay bounds")
         self.key = key
         self.drone_id = drone_id

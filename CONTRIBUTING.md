@@ -1,44 +1,40 @@
-# Contributing to PX4 Firmware
+# Contributing to Project0
 
-We follow the [Github flow](https://guides.github.com/introduction/flow/) development model.
+Project0 contains the maintained `swarm_security/` research tools alongside a
+PX4 source snapshot. Start with the [setup guide](docs/setup.md) and
+[architecture](docs/architecture.md) to understand the project boundary.
 
-### Fork the project, then clone your repo
+## Development workflow
 
-First [fork and clone](https://help.github.com/articles/fork-a-repo) the project project.
+1. Create a descriptive branch from `main`.
+2. Create a virtual environment and install with `python -m pip install -e .`.
+3. Make one focused change, updating affected documentation and regression tests.
+4. Run `scripts/check_project.sh` (or `python -m unittest discover -s tests -v`) and the relevant CLI commands.
+5. Open a pull request explaining the problem, resulting behavior, validation, and limitations.
 
-### Create a feature branch
+Project tests live in `tests/`; upstream PX4 tests remain in `test/` and
+`integrationtests/`. The Python test suite includes local UDP routing checks;
+it does not launch Gazebo or control a vehicle. Add a regression test for a
+fixed correctness or security defect. Keep deterministic tests independent of
+private keys, local build products, and graphical applications.
 
-*Always* branch off main for new features.
+## Reporting results
 
-```
-git checkout -b mydescriptivebranchname
-```
+For simulation changes, include the relevant run manifest and the validation
+performed. State the vehicle count, profile, software revisions, host,
+duration, and metric units. Distinguish protocol tests, simulation connectivity,
+sustained workloads, and physical flight results. Preserve original research
+sources and create new outputs for new measurements.
 
-### Edit and build the code
+Never commit credentials, virtual environments, or generated build products.
+Review captures and logs before sharing them: telemetry can contain sensitive
+locations and identifiers. Report potential vulnerabilities using the
+[security policy](SECURITY.md).
 
-The [developer guide](https://docs.px4.io/main/en/development/development.html) explains how to set up the development environment on Mac OS, Linux or Windows. Please take note of our [coding style](https://docs.px4.io/main/en/contribute/code.html) when editing files.
+## PX4 changes and attribution
 
-### Commit your changes
-
-Always write descriptive commit messages and add a fixes or relates note to them with an [issue number](https://github.com/px4/Firmware/issues) (Github will link these then conveniently)
-
-**Example:**
-
-```
-Change how the attitude controller works
-
-- Fixes rate feed forward
-- Allows a local body rate override
-
-Fixes issue #123
-```
-
-### Test your changes
-
-Since we care about safety, we will regularly ask you for test results. Best is to do a test flight (or bench test where it applies) and upload the logfile from it (on the microSD card in the logs directory) to Google Drive or Dropbox and share the link.
-
-### Push your changes
-
-Push changes to your repo and send a [pull request](https://github.com/PX4/Firmware/compare/).
-
-Make sure to provide some testing feedback and if possible the link to a flight log file. Upload flight log files to [Flight Review](http://logs.px4.io) and link the resulting report.
+Keep PX4 build inputs in their expected locations and preserve upstream notices
+and the [license](LICENSE). Avoid unrelated formatting or firmware changes in a
+research-tool pull request. The [original PX4 contribution guide](docs/px4_contributing.md)
+is preserved for firmware-specific work; upstream PX4 contributions belong in
+the upstream project's own review process.

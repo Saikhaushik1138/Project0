@@ -1,5 +1,7 @@
 """Project command line. Run from the repository root."""
 import argparse
+
+from . import __version__
 import importlib
 import sys
 from pathlib import Path
@@ -15,6 +17,7 @@ def main(argv=None):
         module = importlib.import_module(f"swarm_security.{commands[argv[0]]}")
         return module.main(argv[1:])
     parser = argparse.ArgumentParser(description="PX4 swarm security research tools")
+    parser.add_argument("--version", action="version", version=f"%(prog)s {__version__}")
     subs = parser.add_subparsers(dest="command", required=True)
     for name in commands:
         subs.add_parser(name, help=f"See {name} --help")
