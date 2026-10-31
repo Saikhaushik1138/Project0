@@ -118,6 +118,7 @@ __pycache__/
 /config/*.local.json
 /runs/
 *.egg-info/
+/dist/
 
 # Preserve recorded validation evidence while ignoring live simulator state.
 !/data/validation/session-2026-10-31/**/log/

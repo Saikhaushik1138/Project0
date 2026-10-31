@@ -137,7 +137,14 @@ def atomic_json(path: Path, data: dict) -> None:
 def observed_systems(path: Path) -> set[int]:
     try:
         data = json.loads(path.read_text())
-        return {int(value) for value in data.get("heartbeat_system_ids", [])}
+        if not isinstance(data, dict):
+            return set()
+        identities = data.get("heartbeat_system_ids", [])
+        if not isinstance(identities, list) or any(
+                not isinstance(value, int) or isinstance(value, bool)
+                or not 1 <= value <= MAX_DRONES for value in identities):
+            return set()
+        return set(identities)
     except (OSError, ValueError, TypeError):
         return set()
 

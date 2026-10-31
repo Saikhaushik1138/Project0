@@ -1,18 +1,54 @@
 name: Swarm research tests
-permissions:
-  contents: read
 on:
   push:
-    paths: ['swarm_security/**', 'tests/**', 'requirements-swarm.txt', '.github/workflows/swarm-tests.yml']
+    paths:
+      - 'swarm_security/**'
+      - 'tests/**'
+      - 'scripts/**'
+      - 'docs/**'
+      - '*.md'
+      - 'pyproject.toml'
+      - 'requirements-swarm.txt'
+      - '.github/workflows/swarm-tests.yml'
   pull_request:
-    paths: ['swarm_security/**', 'tests/**', 'requirements-swarm.txt', '.github/workflows/swarm-tests.yml']
+    paths:
+      - 'swarm_security/**'
+      - 'tests/**'
+      - 'scripts/**'
+      - 'docs/**'
+      - '*.md'
+      - 'pyproject.toml'
+      - 'requirements-swarm.txt'
+      - '.github/workflows/swarm-tests.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: swarm-tests-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
   test:
+    name: Python ${{ matrix.python-version }}
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ['3.10', '3.11', '3.12', '3.13']
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-python@v7
         with:
-          python-version: '3.13'
-      - run: python -m pip install -r requirements-swarm.txt
-      - run: python -m unittest discover -s tests -v
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+          cache-dependency-path: requirements-swarm.txt
+      - name: Install research tools
+        run: python -m pip install -e .
+      - name: Project regression tests
+        run: python -m unittest discover -s tests -v
+      - name: Check installed command and 64-vehicle planning
+        run: |
+          swarm-security --version
+          swarm-security launch --drones 64 --security chacha20 --dry-run
+      - name: Build Python distribution
+        run: python -m pip wheel --no-deps --wheel-dir /tmp/project0-wheels .

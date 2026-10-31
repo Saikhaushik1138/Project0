@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "project0-swarm-security"
+dynamic = ["version", "dependencies"]
+description = "Reproducible PX4 swarm experiments with authenticated MAVLink transport"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "BSD-3-Clause"
+license-files = ["LICENSE"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+    "Programming Language :: Python :: 3",
+    "Topic :: Security :: Cryptography",
+]
+
+[project.urls]
+Repository = "https://github.com/Saikhaushik1138/Project0"
+Documentation = "https://github.com/Saikhaushik1138/Project0/blob/main/docs/index.md"
+Issues = "https://github.com/Saikhaushik1138/Project0/issues"
+
+[project.scripts]
+swarm-security = "swarm_security.__main__:main"
+
+[tool.setuptools]
+packages = ["swarm_security"]
+
+[tool.setuptools.dynamic]
+version = {attr = "swarm_security.__version__"}
+dependencies = {file = ["requirements-swarm.txt"]}

@@ -120,6 +120,15 @@ class CryptoTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 load_keys(path)
 
+    def test_replay_bounds_must_be_finite_and_bounded(self):
+        for mode in ("hmac", "chacha20"):
+            for options in ({"max_age": float("nan")}, {"max_age": float("inf")},
+                            {"max_age": 0}, {"max_age": -1}, {"max_age": True},
+                            {"max_sessions": 1.5}, {"max_sessions": 0},
+                            {"max_sessions": True}):
+                with self.subTest(mode=mode, options=options), self.assertRaises(ValueError):
+                    EnvelopeCodec(b"x" * 32, 1, "command", mode, **options)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -1,8 +1,11 @@
-blank_issues_enabled: false
+blank_issues_enabled: true
 contact_links:
-  - name: Support Question
-    url: https://docs.px4.io/main/en/contribute/support.html#forums-and-chat
-    about: For questions about using PX4 or related components, please use the discuss forum and discord server
-  - name: Documentation Issue
-    url: https://github.com/PX4/PX4-user_guide/issues
-    about: If you found an issue in documentation, please submit it directly to the docs repository issues
+  - name: Project setup and troubleshooting
+    url: https://github.com/Saikhaushik1138/Project0/blob/main/docs/setup.md
+    about: Start with the environment, ports, and key configuration guide.
+  - name: Security reporting
+    url: https://github.com/Saikhaushik1138/Project0/blob/main/SECURITY.md
+    about: Read this before reporting a vulnerability or sharing sensitive logs.
+  - name: Upstream PX4 support
+    url: https://docs.px4.io/main/en/contribute/support.html
+    about: For PX4 issues that reproduce without Project0's launcher or transport.
