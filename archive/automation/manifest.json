@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-31",
+  "purpose": "Preserve prior automation without activating external deployments or services on upload",
+  "files": [
+    {
+      "from": ".github/workflows/cflite_batch.yml",
+      "to": "archive/automation/github-workflows/cflite_batch.yml",
+      "sha256": "c5d42a2f097276832a81d14e80870828e2cdac6c1d04fb53921b0df0c103c822",
+      "bytes": 1172
+    },
+    {
+      "from": ".github/workflows/checks.yml",
+      "to": "archive/automation/github-workflows/checks.yml",
+      "sha256": "a76d38f15976d65b55f29e87e8ecec644b9e2268749c61929b75603c84f3d496",
+      "bytes": 1202
+    },
+    {
+      "from": ".github/workflows/clang-tidy.yml",
+      "to": "archive/automation/github-workflows/clang-tidy.yml",
+      "sha256": "50d0a37f0e95f51946a4d97ddb0f0c0ac61dae7d9e26470e72fabfa2cfdf3a48",
+      "bytes": 350
+    },
+    {
+      "from": ".github/workflows/compile_linux.yml",
+      "to": "archive/automation/github-workflows/compile_linux.yml",
+      "sha256": "1fb2c0a1e3c6818ae7e0eb0fd5da43afec4cd93480aab4dd02176efeb11aa94d",
+      "bytes": 1638
+    },
+    {
+      "from": ".github/workflows/compile_linux_arm64.yml",
+      "to": "archive/automation/github-workflows/compile_linux_arm64.yml",
+      "sha256": "83f0665cb7f5c85f247b56d7c93d7d12940d69be48cc662ef974ff985c509dfb",
+      "bytes": 1454
+    },
+    {
+      "from": ".github/workflows/compile_macos.yml",
+      "to": "archive/automation/github-workflows/compile_macos.yml",
+      "sha256": "945fa82a72d8a040e57f6078ee2ef74e2eb1e9bf56966d644a36dc1971df84b1",
+      "bytes": 1561
+    },
+    {
+      "from": ".github/workflows/compile_nuttx.yml",
+      "to": "archive/automation/github-workflows/compile_nuttx.yml",
+      "sha256": "98355f866553774b093ee76b08dadb1a99046bbba218af9e9fcd7c47b780ece2",
+      "bytes": 4027
+    },
+    {
+      "from": ".github/workflows/deploy_all.yml",
+      "to": "archive/automation/github-workflows/deploy_all.yml",
+      "sha256": "7174bbb133218433a3d0fff1abdd96d8220c848d05ded508c6fe4a157a473c48",
+      "bytes": 1722
+    },
+    {
+      "from": ".github/workflows/ekf_functional_change_indicator.yml",
+      "to": "archive/automation/github-workflows/ekf_functional_change_indicator.yml",
+      "sha256": "5b512be8496a2e2502a44fe29a054084373928b226fda1b02928f64116081b7f",
+      "bytes": 625
+    },
+    {
+      "from": ".github/workflows/ekf_update_change_indicator.yml",
+      "to": "archive/automation/github-workflows/ekf_update_change_indicator.yml",
+      "sha256": "b52a9914d9429a49391b0809ef4e721625a6f9760bb8abbc4850aff14437c00d",
+      "bytes": 1031
+    },
+    {
+      "from": ".github/workflows/failsafe_sim.yml",
+      "to": "archive/automation/github-workflows/failsafe_sim.yml",
+      "sha256": "d63f695a284e2dec08096a99a7709ba0f81abfec5b33bc94ccf6662ffedc84a4",
+      "bytes": 954
+    },
+    {
+      "from": ".github/workflows/gemini-dispatch.yml",
+      "to": "archive/automation/github-workflows/gemini-dispatch.yml",
+      "sha256": "944a33957ad265148cef7471c22b01643e0374ce50811bbb3af8b5c77e8cecb4",
+      "bytes": 8335
+    },
+    {
+      "from": ".github/workflows/gemini-invoke.yml",
+      "to": "archive/automation/github-workflows/gemini-invoke.yml",
+      "sha256": "742292180aba7861875008cbec1fc77e7728aea7d768dfe35ce506957c1605ad",
+      "bytes": 4688
+    },
+    {
+      "from": ".github/workflows/gemini-plan-execute.yml",
+      "to": "archive/automation/github-workflows/gemini-plan-execute.yml",
+      "sha256": "75b24292da362d82315691b4c19b7b2c60048afe091df8acd26c27197c46bc03",
+      "bytes": 4977
+    },
+    {
+      "from": ".github/workflows/gemini-review.yml",
+      "to": "archive/automation/github-workflows/gemini-review.yml",
+      "sha256": "19b9016cffffc8ff35c1f3f557cfe677b31321951f6830dbde273f7e961e531e",
+      "bytes": 4458
+    },
+    {
+      "from": ".github/workflows/gemini-scheduled-triage.yml",
+      "to": "archive/automation/github-workflows/gemini-scheduled-triage.yml",
+      "sha256": "6c6bc903b9d894a6c6b1d6e31dbd9806ea2d647bb2a1372a3a0ecadb7723ded9",
+      "bytes": 8532
+    },
+    {
+      "from": ".github/workflows/gemini-triage.yml",
+      "to": "archive/automation/github-workflows/gemini-triage.yml",
+      "sha256": "5bd0d62eec664a4ab740229ad20e6a06819ea66976401ee59b3f838046514f44",
+      "bytes": 6454
+    },
+    {
+      "from": ".github/workflows/mavros_mission_tests.yml",
+      "to": "archive/automation/github-workflows/mavros_mission_tests.yml",
+      "sha256": "ef484c4523dabea540b6c4283271ef818b92e522e7e0c0faa08c4528d9e4d998",
+      "bytes": 5083
+    },
+    {
+      "from": ".github/workflows/mavros_offboard_tests.yml",
+      "to": "archive/automation/github-workflows/mavros_offboard_tests.yml",
+      "sha256": "1d002b3fc9c1b2e8e69ac6f7a76964b614e10daec733b7bb852e2bac2b9a6177",
+      "bytes": 4622
+    },
+    {
+      "from": ".github/workflows/metadata.yml",
+      "to": "archive/automation/github-workflows/metadata.yml",
+      "sha256": "edc64650de65c95fe68acf793e463d9acd7a6b4e4a5bda12ae4fb2210aebef20",
+      "bytes": 3796
+    },
+    {
+      "from": ".github/workflows/nuttx_env_config.yml",
+      "to": "archive/automation/github-workflows/nuttx_env_config.yml",
+      "sha256": "0c6526086372c6514056287b7ba1cff401d1e4670fb660d4f757ddba924379d4",
+      "bytes": 796
+    },
+    {
+      "from": ".github/workflows/python_checks.yml",
+      "to": "archive/automation/github-workflows/python_checks.yml",
+      "sha256": "7374854ec2f1a9355763267d23976432a2c475adaaf52ce5f63f06ccf3cf4d60",
+      "bytes": 651
+    },
+    {
+      "from": ".github/workflows/sitl_tests.yml",
+      "to": "archive/automation/github-workflows/sitl_tests.yml",
+      "sha256": "24e425eaaf3f92fc47e7c16ea8751d41dcc8d127d82bc8e22c03d0721aa17c0d",
+      "bytes": 5311
+    },
+    {
+      "from": ".github/workflows/stale.yml",
+      "to": "archive/automation/github-workflows/stale.yml",
+      "sha256": "9a0bf668f4a87779c1497ca431a0e5b891597d467e9bb43fbb5efac619015f05",
+      "bytes": 353
+    }
+  ]
+}

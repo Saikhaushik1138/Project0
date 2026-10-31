@@ -1,0 +1,18 @@
+{
+  "counts": {
+    "command_delivered_packets": 24,
+    "command_input_packets": 24,
+    "command_plaintext_bytes": 504,
+    "command_wire_bytes": 1848,
+    "handler_calls": 8988,
+    "handler_nanoseconds": 684861188,
+    "telemetry_delivered_packets": 4470,
+    "telemetry_input_packets": 4470,
+    "telemetry_plaintext_bytes": 185020,
+    "telemetry_wire_bytes": 435340
+  },
+  "drones": 2,
+  "security": "chacha20",
+  "started_at": 1793456991.146173,
+  "updated_at": 1793457007.411996
+}

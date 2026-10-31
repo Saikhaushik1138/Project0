@@ -1,0 +1,10 @@
+{
+  "security": "baseline",
+  "drones": 2,
+  "heartbeat_system_ids": [],
+  "ping_reply_system_ids": [],
+  "launcher_exit_code": 1,
+  "timed_out": false,
+  "passed": false,
+  "elapsed_seconds": 50.788
+}

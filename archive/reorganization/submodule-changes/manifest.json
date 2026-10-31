@@ -1,0 +1,7 @@
+{
+  "path": "platforms/nuttx/NuttX/apps",
+  "base_commit": "e37940d8535f603a16b8f6f21c21edaf584218aa",
+  "patch": "nuttx-apps.patch",
+  "sha256": "5e846ca6d364f1af589eb4a32c8c6af9f17a944585dd6dca5496cc40dc91356b",
+  "change": "Deletion of examples/webserver/httpd-fs/404.html; original submodule working tree unchanged"
+}

@@ -1,85 +1,119 @@
-# Project0 · UAV Communication Security Lab
+# UAV swarm security research
 
-**A reproducible research foundation for exploring authenticated encryption around UAV telemetry.**
+PX4 and Gazebo simulation with multiple vehicles, QGroundControl telemetry,
+and selectable MAVLink transport protection. This repository contains the PX4
+source tree plus the project's own code in `swarm_security/`.
 
-[![Python checks](https://github.com/Saikhaushik1138/Project0/actions/workflows/ci.yml/badge.svg)](https://github.com/Saikhaushik1138/Project0/actions/workflows/ci.yml)
-![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776AB)
-![Status: research prototype](https://img.shields.io/badge/status-research_prototype-amber)
+The original report, slides, scripts, and measurements are preserved. The
+current workflow replaces inconsistent launch scripts with one launcher and
+tests the actual transport in both directions.
 
-Project0 began as an internship study of MAVLink communication security. This repository now separates its original experiments from a small, testable Python implementation of ChaCha20-Poly1305 authenticated encryption.
+## Start here
 
-> **Scope:** an offline educational prototype, not a flight-ready security gateway. The custom envelope is not MAVLink-compatible. No PX4, Gazebo, or QGroundControl integration is claimed or tested.
-
-## What is included
-
-- A versioned binary envelope with encrypted payloads and authenticated headers/context.
-- Strict key, packet-size, and format validation.
-- Bounded replay detection updated only after successful authentication.
-- An offline CLI demo, regression tests, and a Python-version CI matrix.
-- Original research notes and scripts preserved under [`archive/`](archive/README.md).
-
-## Quick start
-
-Requires Python 3.10 or later. From the repository root:
+Run from this folder. The existing `.venv` has the required dependencies on this
+Mac. On a fresh machine, follow [setup](docs/setup.md) first.
 
 ```bash
-python -m venv .venv
 source .venv/bin/activate
-# Windows PowerShell: .venv\Scripts\Activate.ps1
-python -m pip install -e .
-export DRONE_CHACHA_KEY="$(project0 keygen)"
-project0 demo
-python -m unittest discover -s tests -v
+python -m swarm_security doctor
+test -f config/keys.local.json || python -m swarm_security keygen --drones 64
+python -m swarm_security launch --drones 4 --security chacha20 --keys config/keys.local.json
 ```
 
-For PowerShell, set the key with `$env:DRONE_CHACHA_KEY = project0 keygen`.
-The key generator prints a fresh secret: keep it private and never commit it.
-The demo prints three PASS messages for round-trip recovery, tamper rejection, and replay rejection. It opens no network connections.
+The first-run command creates private keys only when they are absent. Keys are
+kept locally and are never included in the GitHub upload. `keygen` refuses to
+overwrite existing keys. Open
+QGroundControl with its automatic UDP connection enabled on **14550**. The
+launcher waits for vehicle heartbeats before announcing readiness. It does not
+arm or fly vehicles automatically. Ctrl+C stops the processes started by that
+run. A GUI launch starts Gazebo's interface; add `--headless` to omit it.
 
-## Use the Python API
+For the unprotected and authentication-only comparisons:
 
-```python
-from project0 import SecureChannel, load_key
-
-key = load_key()
-context = b"lab/session-1/gcs-to-uav"
-sender = SecureChannel(key, context=context)
-receiver = SecureChannel(key, context=context)
-packet = sender.seal(b"example telemetry")
-assert receiver.open(packet) == b"example telemetry"
+```bash
+python -m swarm_security launch --drones 4 --security baseline
+python -m swarm_security launch --drones 4 --security hmac --keys config/keys.local.json
 ```
 
-The sender and receiver must share the key and exact context. A real duplex design needs distinct directional keys and authenticated session establishment; the example does not implement either.
+Sizes **1–64** are accepted, including the study's 1, 4, 8, 16, 32, and 64.
+Available CPU, memory, and simulator performance determine practical limits.
+Use `--startup-timeout 300` when a larger swarm needs longer to initialize.
+Configuration support for 64 vehicles is not a measured 64-vehicle performance
+guarantee. See [validation](docs/validation.md) for what was actually exercised.
 
-## Research context
+## Security layers
 
-MAVLink 2 supports optional message signing for authentication, but does not provide encryption. See the official [signing guide](https://mavlink.io/en/guide/message_signing.html) and [security FAQ](https://mavlink.io/en/about/faq.html). Project0 explores an external encryption layer; it does not replace a MAVLink parser or its signing implementation.
+| Profile | Protected transport | Confidentiality | Replay checks |
+| --- | --- | --- | --- |
+| `baseline` | Ordinary MAVLink through the same relay topology | No | No |
+| `hmac` | HMAC-SHA256 authenticated envelope | No | Yes |
+| `chacha20` | ChaCha20-Poly1305 authenticated envelope | Yes | Yes |
 
-| Approach studied | Role | Important limitation |
-| --- | --- | --- |
-| Operator 2FA | Operator authentication | Does not itself protect telemetry |
-| Affine cipher | Historical teaching exercise | Not suitable for modern confidentiality |
-| HMAC-SHA-256 | Integrity and shared-key authentication | Does not encrypt messages |
-| ChaCha20-Poly1305 | Authenticated encryption | Requires sound key, nonce, and session management |
+Each drone has a separate key and separate ports. The relays preserve complete
+MAVLink datagrams so PX4 and QGroundControl exchange ordinary MAVLink at their
+endpoints. This is a **local transport experiment**. The trusted host still has
+plaintext endpoints, and the stock PX4 UDP socket is not a firewall. See the
+[architecture and trust boundary](docs/architecture.md).
 
-## Repository guide
+The [research mapping](docs/research.md) explains the original case numbering and
+which manuscript features have implementations. GPS anti-spoofing, X25519
+exchange, persistent revocation, and formation control are not provided by the
+three supported profiles.
 
-| Location | Contents |
+## Project layout
+
+| Location | Purpose |
 | --- | --- |
-| `src/project0/` | Maintained envelope implementation and CLI |
-| `tests/` | Automated security-behavior regression tests |
-| [Architecture](docs/architecture.md) | Wire format and integration boundaries |
-| [Threat model](docs/threat-model.md) | Guarantees, limitations, and validation scope |
-| `archive/` | Unverified historical experiments and notes |
-| [Contributing](CONTRIBUTING.md) | Development and review workflow |
-| [Security](SECURITY.md) | Reporting guidance and deployment limitations |
+| `swarm_security/` | Current launcher, transport, diagnostics, benchmarks, and analysis |
+| `scripts/` | Environment setup and verification helpers |
+| `config/` | Configuration notes and locally generated private keys |
+| `tests/` | Tests for this project's code; PX4's original tests remain in `test/` |
+| `docs/references/` | Original Word research paper and PowerPoint presentation |
+| `docs/` | Setup, architecture, research mapping, validation, and cleanup records |
+| `data/recordings/` | Original timestamped measurements |
+| `data/historical/` | Original logs, parameter snapshot, and telemetry logs |
+| `runs/` | New isolated run directories, manifests, logs, and metrics; Git-ignored |
+| `archive/legacy/` | Original scripts retained for reference |
+| `archive/previous-github/` | The earlier GitHub research package, preserved before this upload |
+| `archive/automation/` | Inactive upstream and Gemini workflows retained for reference |
+| `archive/reorganization/` | Move checksums, original Git diffs, and generated-file recovery archive |
+| `src/`, `ROMFS/`, `Tools/`, `boards/`, `platforms/`, `cmake/` | PX4 source/build inputs, retained in PX4's required locations |
+| `build/` | Existing PX4 build outputs, retained for use |
 
-## Next milestones
+The original PX4 README is preserved at [docs/px4_upstream_readme.md](docs/px4_upstream_readme.md).
+The upstream PX4 license and contribution files remain at the root.
 
-- Establish authenticated sessions and directional key derivation.
-- Persist replay state or rotate session keys safely across restarts.
-- Integrate a maintained MAVLink parser and validate complete frames in SITL.
-- Measure bandwidth, latency, packet loss, and CPU overhead reproducibly.
-- Obtain independent security review before considering real hardware.
+## Check and measure
 
-No benchmark or flight-test results are claimed. No license is currently granted; the repository owner should select a license before redistribution.
+```bash
+# Project tests, including real UDP routing tests
+python -m unittest discover -s tests -v
+
+# Inspect a 64-vehicle port/position plan without launching anything
+python -m swarm_security launch --drones 64 --security chacha20 --dry-run
+
+# Short simulation run, without a GUI or automatic flight
+python -m swarm_security launch --drones 2 --security chacha20 \
+  --keys config/keys.local.json --headless --duration 10
+
+# In-memory protocol tests across sizes; these are not flight measurements
+python -m swarm_security benchmark --sizes 1 4 8 16 32 64 \
+  --steps 100 --seed 7 --output runs/benchmark.json
+
+# Analyze actual recorded Gazebo timing
+python -m swarm_security analyze data/recordings/20260715_062734/gazebo_stats.log
+```
+
+Each simulation run saves `manifest.json`, PX4 instance logs, Gazebo logs,
+relay heartbeat status, and packet counters. `--duration` measures time after
+startup readiness. The manifest records the owned process PIDs. Sample selected
+PIDs with `python -m swarm_security record --pids 123 456 --duration 60`.
+Replace the example PIDs with those from your run. This records process CPU
+and memory without requiring privileged packet capture.
+
+The retained `./launch_swarm_gazebo.sh 4 ...` entry point forwards to the new
+launcher. Archived launchers are historical source and are not supported entry
+points. See [reorganization](docs/reorganization.md) for the exact file mapping.
+
+See [GitHub checkout notes](docs/github.md) for cloning with PX4 submodules and
+the files intentionally kept local.

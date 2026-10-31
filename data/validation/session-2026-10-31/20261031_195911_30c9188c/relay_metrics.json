@@ -1,0 +1,18 @@
+{
+  "counts": {
+    "command_delivered_packets": 24,
+    "command_input_packets": 24,
+    "command_plaintext_bytes": 504,
+    "command_wire_bytes": 2232,
+    "handler_calls": 8972,
+    "handler_nanoseconds": 699310336,
+    "telemetry_delivered_packets": 4462,
+    "telemetry_input_packets": 4462,
+    "telemetry_plaintext_bytes": 184546,
+    "telemetry_wire_bytes": 505810
+  },
+  "drones": 2,
+  "security": "hmac",
+  "started_at": 1793456951.89209,
+  "updated_at": 1793456968.142417
+}

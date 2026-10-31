@@ -1,0 +1,17 @@
+{
+  "heartbeat_system_ids": [
+    1,
+    2
+  ],
+  "heartbeats": {
+    "1": {
+      "instance": 0,
+      "received_at": 1793456967.812147
+    },
+    "2": {
+      "instance": 1,
+      "received_at": 1793456967.812106
+    }
+  },
+  "updated_at": 1793456968.141958
+}

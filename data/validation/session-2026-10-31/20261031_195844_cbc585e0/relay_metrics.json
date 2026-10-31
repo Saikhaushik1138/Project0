@@ -1,0 +1,18 @@
+{
+  "counts": {
+    "command_delivered_packets": 24,
+    "command_input_packets": 24,
+    "command_plaintext_bytes": 504,
+    "command_wire_bytes": 504,
+    "handler_calls": 9040,
+    "handler_nanoseconds": 371047401,
+    "telemetry_delivered_packets": 4495,
+    "telemetry_input_packets": 4497,
+    "telemetry_plaintext_bytes": 186043,
+    "telemetry_wire_bytes": 186043
+  },
+  "drones": 2,
+  "security": "baseline",
+  "started_at": 1793456924.9868858,
+  "updated_at": 1793456941.6992168
+}

@@ -1,0 +1,4 @@
+# Runtime versions verified in this workspace. PX4 build dependencies are separate.
+cryptography==49.0.0
+pymavlink==2.4.49
+psutil==7.2.2

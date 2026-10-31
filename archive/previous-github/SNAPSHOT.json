@@ -1,0 +1,94 @@
+{
+  "repository": "Saikhaushik1138/Project0",
+  "source_commit": "d3917e66302abab1aa59d8c3194b5d52a08d67c1",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "1ca57470766377d38e9be018228ff70d4893137595c980a49932a277be0c5ede"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "96ae4d4d1b410939700bfa44c1db25fab439b7a20091ac5cfa6f5419a906be22"
+    },
+    {
+      "path": "README.md",
+      "sha256": "17a27dbad1eec0d365e37505055a1046ebc6e3e2033f3c76fa332d1d01889e0f"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "4d76bb74ad4f0f44d1bff96a72b6473453ddeaef2f596d7dfac06914c4ed1053"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "b944cb7b187b6efe4b1c1da7085946ede4388d2583c0c0ff33bf4d01dee016db"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "0b15d34a5d00a2baaec80c174c2f42682af732a96ea8710f3f157dcee560a9d3"
+    },
+    {
+      "path": "archive/Vulnerabilities.md",
+      "sha256": "f940c21104c5d300097297b8ff7c7cf1ede8c60581d3c842fc608eb9ca2123ae"
+    },
+    {
+      "path": "archive/README.md",
+      "sha256": "de7da0039ca651f845171749e6fe1efd5efe499924edc0c859221c5a1456f61a"
+    },
+    {
+      "path": "tests/test_channel.py",
+      "sha256": "d5cf0bebb221d748c78e78eada6c779fee8e2894f976815603aae971fe3ca311"
+    },
+    {
+      "path": "tests/test_cli.py",
+      "sha256": "17ec71138dd8742bfb19e29c995862216dbd7715d3de8d3ea3b5ba868b984e8d"
+    },
+    {
+      "path": "docs/architecture.md",
+      "sha256": "9410ed20202fbb5d258b426d42c10eb455697138ac0e077f191fa43937c1e21f"
+    },
+    {
+      "path": "docs/threat-model.md",
+      "sha256": "6eab4e3aee71ff2d4fdcef94011ab567eb69c3708af2745b3fd66b5e338eca42"
+    },
+    {
+      "path": "src/project0/channel.py",
+      "sha256": "16674e5bf7f05719b3542fbc04c7cb487b5773fbd76aa0d03b6476d101a5c189"
+    },
+    {
+      "path": "src/project0/__init__.py",
+      "sha256": "bc97440095a2b6742b0acc0dc383b3d837c4df7a995d8eb807ab0a4feb6029df"
+    },
+    {
+      "path": "src/project0/__main__.py",
+      "sha256": "139d064c624996fcdb33d0ec73d6c9e73a4a274a0c27cd63137c2dce1d138bf7"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "81812a9af0fdc3483bd7250257d4d5441a4946ee5efda2ea950a9334a8b0953b"
+    },
+    {
+      "path": "archive/Solutions/03_HMAC.md",
+      "sha256": "1bcce270f14acee65bca0ec698b5adb045e1922d9154b8255dff9eeb595d7187"
+    },
+    {
+      "path": "archive/Solutions/04 _Chacha20.md",
+      "sha256": "02d1a68fc639c618a7b7fc9e2511cf79396a914bd63e5d6e0d2f089f788b31f3"
+    },
+    {
+      "path": "archive/Solutions/02_Affine.md",
+      "sha256": "85a9c44c41a8725f7d1a138db983bb09f4399c05d0ed36e2dcb466f9c6a6ea91"
+    },
+    {
+      "path": "archive/Solutions/01_2FA.md",
+      "sha256": "22d0383b88090e34149bffddd71050f89e3779d7096805e2f6c82d71a56a2021"
+    },
+    {
+      "path": "archive/codes/Chacha20.py",
+      "sha256": "7658da9bb1e316a4580382770f325019b5ec58b7dcf29ca2f0173dd5a7309901"
+    },
+    {
+      "path": "archive/codes/HMAC.py",
+      "sha256": "ea9b601f1c7fa5ccb48b457a3f87b8f84705270d9de241fcbd78b036ce5d9cdd"
+    }
+  ]
+}

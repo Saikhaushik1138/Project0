@@ -1,0 +1,60 @@
+{
+  "security": "chacha20",
+  "drones": 2,
+  "headless": true,
+  "duration_seconds": 5.0,
+  "px4_binary": "/Users/saikhaushik/UAV/build/px4_sitl_default/bin/px4",
+  "model": "gz_x500",
+  "world": "default",
+  "qgroundcontrol": "127.0.0.1:14550",
+  "baseline_uses_transparent_relay": true,
+  "vehicles": [
+    {
+      "instance": 0,
+      "system_id": 1,
+      "pose": "0,0,0,0,0,0",
+      "px4_port": 18570,
+      "relay_ingress": 20000,
+      "qgc_reply_port": 21000,
+      "vehicle_tunnel_port": 22000,
+      "gcs_tunnel_port": 23000
+    },
+    {
+      "instance": 1,
+      "system_id": 2,
+      "pose": "3,0,0,0,0,0",
+      "px4_port": 18571,
+      "relay_ingress": 20001,
+      "qgc_reply_port": 21001,
+      "vehicle_tunnel_port": 22001,
+      "gcs_tunnel_port": 23001
+    }
+  ],
+  "status": "completed",
+  "started_at": 1793456991.1045911,
+  "run_id": "20261031_195951_d3803974",
+  "processes": [
+    {
+      "role": "MAVLink relay",
+      "pid": 20080,
+      "exit_code": 0
+    },
+    {
+      "role": "Gazebo server",
+      "pid": 20081,
+      "exit_code": 0
+    },
+    {
+      "role": "PX4 instance 0",
+      "pid": 20092,
+      "exit_code": 0
+    },
+    {
+      "role": "PX4 instance 1",
+      "pid": 20097,
+      "exit_code": 0
+    }
+  ],
+  "ready_at": 1793457002.153301,
+  "stopped_at": 1793457007.4764569
+}

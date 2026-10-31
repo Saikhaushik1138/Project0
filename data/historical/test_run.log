@@ -1,0 +1,5 @@
+[KEYS] Active drone_A key: a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1
+[KEYS] Active token key: b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2
+[Proxy GCS] Starting GCS-side proxy...
+[Proxy Drone] Starting Drone-side proxy...[Proxy] Bidirectional V10 Secure Proxy active and running.
+

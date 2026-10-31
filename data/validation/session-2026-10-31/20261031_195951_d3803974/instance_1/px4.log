@@ -1,0 +1,56 @@
+INFO  [px4] instance: 1
+
+______  __   __    ___ 
+| ___ \ \ \ / /   /   |
+| |_/ /  \ V /   / /| |
+|  __/   /   \  / /_| |
+| |     / /^\ \ \___  |
+\_|     \/   \/     |_/
+
+px4 starting.
+
+INFO  [px4] startup script: /bin/sh etc/init.d-posix/rcS 1
+env SYS_AUTOSTART: 4001
+INFO  [param] selected parameter default file parameters.bson
+INFO  [param] selected parameter backup file parameters_backup.bson
+  SYS_AUTOCONFIG: curr: 0 -> new: 1
+  MAV_SYS_ID: curr: 1 -> new: 2
+  UXRCE_DDS_KEY: curr: 1 -> new: 2
+  SYS_AUTOSTART: curr: 0 -> new: 4001
+  CAL_ACC0_ID: curr: 0 -> new: 1310988
+  CAL_GYRO0_ID: curr: 0 -> new: 1310988
+  CAL_ACC1_ID: curr: 0 -> new: 1310996
+  CAL_GYRO1_ID: curr: 0 -> new: 1310996
+  CAL_ACC2_ID: curr: 0 -> new: 1311004
+  CAL_GYRO2_ID: curr: 0 -> new: 1311004
+  CAL_MAG0_ID: curr: 0 -> new: 197388
+  CAL_MAG0_PRIO: curr: -1 -> new: 50
+  CAL_MAG1_ID: curr: 0 -> new: 197644
+  CAL_MAG1_PRIO: curr: -1 -> new: 50
+  SENS_BOARD_X_OFF: curr: 0.0000 -> new: 0.0000
+  SENS_DPRES_OFF: curr: 0.0000 -> new: 0.0010
+INFO  [dataman] data manager file './dataman' size is 7872608 bytes
+INFO  [init] Gazebo simulator
+INFO  [init] Standalone PX4 launch, waiting for Gazebo
+INFO  [init] PX4_GZ_MODEL_POSE set, spawning at: 3,0,0,0,0,0
+INFO  [lockstep_scheduler] setting initial absolute time to 4892000 us
+INFO  [gz_bridge] world: default, model name: x500_1, simulation model: x500
+INFO  [gz_bridge] Requested Model Position: 3,0,0,0,0,0
+INFO  [gz_bridge] Model position z is less or equal 0.0, moving upwards
+WARN  [vehicle_angular_velocity] no gyro selected, using sensor_gyro:0 1310988
+INFO  [commander] LED: open /dev/led0 failed (22)
+WARN  [health_and_arming_checks] Preflight Fail: ekf2 missing data
+INFO  [tone_alarm] home set
+INFO  [uxrce_dds_client] init UDP agent IP:127.0.0.1, port:8888
+  MAV_0_BROADCAST: curr: 1 -> new: 0
+INFO  [mavlink] mode: Normal, data rate: 4000000 B/s on udp port 18571 remote port 20001
+INFO  [commander] [32mReady for takeoff![0m
+INFO  [logger] logger started (mode=all)
+INFO  [logger] Start file log (type: full)
+INFO  [logger] [logger] ./log/2026-10-31/14_30_02.ulg	
+INFO  [logger] Opened full log file: ./log/2026-10-31/14_30_02.ulg
+INFO  [mavlink] MAVLink only on localhost (set param MAV_{i}_BROADCAST = 1 to enable network)
+INFO  [px4] Startup script returned successfully
+
+PX4 Exiting...
+Exiting NOW.

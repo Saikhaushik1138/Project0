@@ -1,0 +1,366 @@
+{
+  "date": "2026-10-31",
+  "files": [
+    {
+      "from": "runs/benchmark.json",
+      "to": "data/validation/session-2026-10-31/benchmark.json",
+      "sha256": "605428c33475f5f201ec42fd8d590386004a1c4b38a839cf61ad21e466ede508",
+      "bytes": 63684
+    },
+    {
+      "from": "runs/20261031_195750_eea759fb/manifest.json",
+      "to": "data/validation/session-2026-10-31/20261031_195750_eea759fb/manifest.json",
+      "sha256": "5ba3ac2014394f351ba969bd7e296d77b0e44e9adb460498493b052644f25873",
+      "bytes": 1347
+    },
+    {
+      "from": "runs/20261031_195750_eea759fb/relay_status.json",
+      "to": "data/validation/session-2026-10-31/20261031_195750_eea759fb/relay_status.json",
+      "sha256": "46c79361b4bf7e22317950b142f80099b5d1edcd182674f630a4137f853ca61c",
+      "bytes": 89
+    },
+    {
+      "from": "runs/20261031_195750_eea759fb/relay_metrics.json",
+      "to": "data/validation/session-2026-10-31/20261031_195750_eea759fb/relay_metrics.json",
+      "sha256": "4cc69d1de507bb76ac66ae6614d660bfa9187160ed0cd728f00e2e4a4ffbe740",
+      "bytes": 131
+    },
+    {
+      "from": "runs/20261031_195750_eea759fb/relay.log",
+      "to": "data/validation/session-2026-10-31/20261031_195750_eea759fb/relay.log",
+      "sha256": "b525c629f2b299fa9777e15430320c3d47bfce864ca60853a22bfe2e78318ec5",
+      "bytes": 60
+    },
+    {
+      "from": "runs/20261031_195750_eea759fb/gazebo_server.log",
+      "to": "data/validation/session-2026-10-31/20261031_195750_eea759fb/gazebo_server.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "from": "runs/20261031_195750_eea759fb/instance_0/px4.log",
+      "to": "data/validation/session-2026-10-31/20261031_195750_eea759fb/instance_0/px4.log",
+      "sha256": "3149f51bf6ab0530bf87a7d61dc288fe2789e63d5ef7cfa41c179fe8b0dcf828",
+      "bytes": 4829
+    },
+    {
+      "from": "runs/20261031_195750_eea759fb/instance_0/log/2026-10-31/14_28_04.ulg",
+      "to": "data/validation/session-2026-10-31/20261031_195750_eea759fb/instance_0/log/2026-10-31/14_28_04.ulg",
+      "sha256": "8eccbdd2235299b3dfe4b57f42d702c963f274c22086ebfecd00287a660a011c",
+      "bytes": 8535210
+    },
+    {
+      "from": "runs/20261031_195750_eea759fb/instance_1/px4.log",
+      "to": "data/validation/session-2026-10-31/20261031_195750_eea759fb/instance_1/px4.log",
+      "sha256": "47108a6fda3e959f6bdccad9d89e8a81477eb4da5c50a2ac30c89eb0deadc8b4",
+      "bytes": 4896
+    },
+    {
+      "from": "runs/20261031_195750_eea759fb/instance_1/log/2026-10-31/14_28_04.ulg",
+      "to": "data/validation/session-2026-10-31/20261031_195750_eea759fb/instance_1/log/2026-10-31/14_28_04.ulg",
+      "sha256": "62296902edd7aa147044ced842f01b477e3509c61438323267ffdc5376765523",
+      "bytes": 8535354
+    },
+    {
+      "from": "runs/20261031_195844_cbc585e0/manifest.json",
+      "to": "data/validation/session-2026-10-31/20261031_195844_cbc585e0/manifest.json",
+      "sha256": "0665f13c50e34a26dbfd177cd0cb2708d265338a75fe798ca863b753459675ef",
+      "bytes": 1317
+    },
+    {
+      "from": "runs/20261031_195844_cbc585e0/relay_status.json",
+      "to": "data/validation/session-2026-10-31/20261031_195844_cbc585e0/relay_status.json",
+      "sha256": "7b65a020ac4a60aa2fccfdce6443898946fb6c63d0cbd9d8ad80aa34ec3dc002",
+      "bytes": 262
+    },
+    {
+      "from": "runs/20261031_195844_cbc585e0/relay_metrics.json",
+      "to": "data/validation/session-2026-10-31/20261031_195844_cbc585e0/relay_metrics.json",
+      "sha256": "c4f1dd737ec9e5e8c59c7bbe3fe6aded88f8121c48c08eb2fea9793b55f5c357",
+      "bytes": 491
+    },
+    {
+      "from": "runs/20261031_195844_cbc585e0/relay.log",
+      "to": "data/validation/session-2026-10-31/20261031_195844_cbc585e0/relay.log",
+      "sha256": "b525c629f2b299fa9777e15430320c3d47bfce864ca60853a22bfe2e78318ec5",
+      "bytes": 60
+    },
+    {
+      "from": "runs/20261031_195844_cbc585e0/gazebo_server.log",
+      "to": "data/validation/session-2026-10-31/20261031_195844_cbc585e0/gazebo_server.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "from": "runs/20261031_195844_cbc585e0/instance_0/px4.log",
+      "to": "data/validation/session-2026-10-31/20261031_195844_cbc585e0/instance_0/px4.log",
+      "sha256": "c4d58644de99b6bffe51fbe634378bee72a2481d51af0bc9476f7b60810c4b41",
+      "bytes": 2281
+    },
+    {
+      "from": "runs/20261031_195844_cbc585e0/instance_0/log/2026-10-31/14_28_56.ulg",
+      "to": "data/validation/session-2026-10-31/20261031_195844_cbc585e0/instance_0/log/2026-10-31/14_28_56.ulg",
+      "sha256": "a08bce1e05ed64ada6075712d9da80ff852f74e9cc4065386871a2a61f4ed11f",
+      "bytes": 1310563
+    },
+    {
+      "from": "runs/20261031_195844_cbc585e0/instance_1/px4.log",
+      "to": "data/validation/session-2026-10-31/20261031_195844_cbc585e0/instance_1/px4.log",
+      "sha256": "5b103c0786bcf02cd2781bebe827d32b3c95d78179c348eaa0c95ca15bd65f0c",
+      "bytes": 2348
+    },
+    {
+      "from": "runs/20261031_195844_cbc585e0/instance_1/log/2026-10-31/14_28_56.ulg",
+      "to": "data/validation/session-2026-10-31/20261031_195844_cbc585e0/instance_1/log/2026-10-31/14_28_56.ulg",
+      "sha256": "33c376c87cfc4342ceffb2729b1e4145898ce2f5a9fc275db1704d19d303940d",
+      "bytes": 1294634
+    },
+    {
+      "from": "runs/20261031_195911_30c9188c/manifest.json",
+      "to": "data/validation/session-2026-10-31/20261031_195911_30c9188c/manifest.json",
+      "sha256": "dc792abf5c037c16b73d54b7af794fc06229f750936ef96bf202a983ed265d82",
+      "bytes": 1315
+    },
+    {
+      "from": "runs/20261031_195911_30c9188c/relay_status.json",
+      "to": "data/validation/session-2026-10-31/20261031_195911_30c9188c/relay_status.json",
+      "sha256": "22f4a8cf4dce5eb80621faab3a36b6b393b336900ffe32fe538cf73d253dfaf7",
+      "bytes": 262
+    },
+    {
+      "from": "runs/20261031_195911_30c9188c/relay_metrics.json",
+      "to": "data/validation/session-2026-10-31/20261031_195911_30c9188c/relay_metrics.json",
+      "sha256": "4cd22f43c51ff30345e7376225e48ed8bde38cdda13df698e1144d91e075a3f5",
+      "bytes": 485
+    },
+    {
+      "from": "runs/20261031_195911_30c9188c/relay.log",
+      "to": "data/validation/session-2026-10-31/20261031_195911_30c9188c/relay.log",
+      "sha256": "e809f0885f1048fd9b3d05e5253c4d6f6346c3f852fe868c3e1ea737bb158320",
+      "bytes": 56
+    },
+    {
+      "from": "runs/20261031_195911_30c9188c/gazebo_server.log",
+      "to": "data/validation/session-2026-10-31/20261031_195911_30c9188c/gazebo_server.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "from": "runs/20261031_195911_30c9188c/instance_0/px4.log",
+      "to": "data/validation/session-2026-10-31/20261031_195911_30c9188c/instance_0/px4.log",
+      "sha256": "5f3cc33b87a36cd2d162fbcf4db9b2c9e21b54e1188ca5388661691d2bd126b4",
+      "bytes": 2281
+    },
+    {
+      "from": "runs/20261031_195911_30c9188c/instance_0/log/2026-10-31/14_29_22.ulg",
+      "to": "data/validation/session-2026-10-31/20261031_195911_30c9188c/instance_0/log/2026-10-31/14_29_22.ulg",
+      "sha256": "5bad24a33623b1eb7afc022ba7b2ae6d1554d6bcae80bded76e59a9097835f25",
+      "bytes": 1305712
+    },
+    {
+      "from": "runs/20261031_195911_30c9188c/instance_1/px4.log",
+      "to": "data/validation/session-2026-10-31/20261031_195911_30c9188c/instance_1/px4.log",
+      "sha256": "55b35013dfea8ee7bf664964b615e2e33dfa423b0fed9edd53ccfaffd73d1530",
+      "bytes": 2348
+    },
+    {
+      "from": "runs/20261031_195911_30c9188c/instance_1/log/2026-10-31/14_29_22.ulg",
+      "to": "data/validation/session-2026-10-31/20261031_195911_30c9188c/instance_1/log/2026-10-31/14_29_22.ulg",
+      "sha256": "0d3eff251c729086ff48c812777c81d92de12bda3e1a798841a7883eec2cab13",
+      "bytes": 1305748
+    },
+    {
+      "from": "runs/20261031_195951_d3803974/manifest.json",
+      "to": "data/validation/session-2026-10-31/20261031_195951_d3803974/manifest.json",
+      "sha256": "6359e6c8e57be5ad996beb2275e41bf727e9eab0440266cea9119282d04f8519",
+      "bytes": 1319
+    },
+    {
+      "from": "runs/20261031_195951_d3803974/relay_status.json",
+      "to": "data/validation/session-2026-10-31/20261031_195951_d3803974/relay_status.json",
+      "sha256": "3648261eda9178b710cf6d4e1cff4e262c1affe6022132829a56a16fb4ac5370",
+      "bytes": 262
+    },
+    {
+      "from": "runs/20261031_195951_d3803974/relay_metrics.json",
+      "to": "data/validation/session-2026-10-31/20261031_195951_d3803974/relay_metrics.json",
+      "sha256": "b6d06d650cf2774aee1c71496028339b9c704fd076d586cdaa2a6e6f1c550ba5",
+      "bytes": 490
+    },
+    {
+      "from": "runs/20261031_195951_d3803974/relay.log",
+      "to": "data/validation/session-2026-10-31/20261031_195951_d3803974/relay.log",
+      "sha256": "d15d48dc9fab2852b95bccb2d34cfbe6e6b81ff924f5767aadd094204445c9df",
+      "bytes": 60
+    },
+    {
+      "from": "runs/20261031_195951_d3803974/gazebo_server.log",
+      "to": "data/validation/session-2026-10-31/20261031_195951_d3803974/gazebo_server.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "from": "runs/20261031_195951_d3803974/instance_0/px4.log",
+      "to": "data/validation/session-2026-10-31/20261031_195951_d3803974/instance_0/px4.log",
+      "sha256": "65318afa47c062339aaed228256ae4bea3c45302f84ccc5135197b2643c9ad2f",
+      "bytes": 2281
+    },
+    {
+      "from": "runs/20261031_195951_d3803974/instance_0/log/2026-10-31/14_30_02.ulg",
+      "to": "data/validation/session-2026-10-31/20261031_195951_d3803974/instance_0/log/2026-10-31/14_30_02.ulg",
+      "sha256": "1a55f6f024ecb375e00d5c7c0092e8bfaec3a3abc4f9837784dbc199410fcea6",
+      "bytes": 1258443
+    },
+    {
+      "from": "runs/20261031_195951_d3803974/instance_1/px4.log",
+      "to": "data/validation/session-2026-10-31/20261031_195951_d3803974/instance_1/px4.log",
+      "sha256": "b765396bfc4af09863e130902fbfeb25b19e49e31760a4f2f2af2584a357ebc9",
+      "bytes": 2348
+    },
+    {
+      "from": "runs/20261031_195951_d3803974/instance_1/log/2026-10-31/14_30_02.ulg",
+      "to": "data/validation/session-2026-10-31/20261031_195951_d3803974/instance_1/log/2026-10-31/14_30_02.ulg",
+      "sha256": "ae9de2d4e4a5516916fe618d10585365127634d7c7dd566a851ce3db12275915",
+      "bytes": 1260854
+    },
+    {
+      "from": "runs/20261031_200117_e75ea608/manifest.json",
+      "to": "data/validation/session-2026-10-31/20261031_200117_e75ea608/manifest.json",
+      "sha256": "04092828e2f886a094f164ac8b5e490989e51b5c580dd2e85d4b933313db5b34",
+      "bytes": 1965
+    },
+    {
+      "from": "runs/20261031_200117_e75ea608/relay_status.json",
+      "to": "data/validation/session-2026-10-31/20261031_200117_e75ea608/relay_status.json",
+      "sha256": "947fe45719c0a347374f1dd3c71af6130068f1a699f31105b6c39cf274d562f0",
+      "bytes": 433
+    },
+    {
+      "from": "runs/20261031_200117_e75ea608/relay_metrics.json",
+      "to": "data/validation/session-2026-10-31/20261031_200117_e75ea608/relay_metrics.json",
+      "sha256": "9bd7405756d97d01cd1e4b7d3d16e237779b225d1a95568aedc563f199f6e92c",
+      "bytes": 495
+    },
+    {
+      "from": "runs/20261031_200117_e75ea608/relay.log",
+      "to": "data/validation/session-2026-10-31/20261031_200117_e75ea608/relay.log",
+      "sha256": "89b3c89be44894158b8c815a2c94d4574fc2831f23722af0d7eec1f4507d47f0",
+      "bytes": 60
+    },
+    {
+      "from": "runs/20261031_200117_e75ea608/gazebo_server.log",
+      "to": "data/validation/session-2026-10-31/20261031_200117_e75ea608/gazebo_server.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "from": "runs/20261031_200117_e75ea608/instance_0/px4.log",
+      "to": "data/validation/session-2026-10-31/20261031_200117_e75ea608/instance_0/px4.log",
+      "sha256": "6d46ee64689ae8e1d30f75fc136b7b8ae93e8fb04e3083f9d5dd2198e4139e94",
+      "bytes": 2281
+    },
+    {
+      "from": "runs/20261031_200117_e75ea608/instance_0/log/2026-10-31/14_31_28.ulg",
+      "to": "data/validation/session-2026-10-31/20261031_200117_e75ea608/instance_0/log/2026-10-31/14_31_28.ulg",
+      "sha256": "1125df3c65aa0a6d130cf54c764e2b7ed3bff4b04455f443d075de5b5507d46b",
+      "bytes": 1349940
+    },
+    {
+      "from": "runs/20261031_200117_e75ea608/instance_1/px4.log",
+      "to": "data/validation/session-2026-10-31/20261031_200117_e75ea608/instance_1/px4.log",
+      "sha256": "b5e7d6999d961e5128fb210fbeb98e3d780ab6524698bba17910d1e2f7422f4a",
+      "bytes": 2348
+    },
+    {
+      "from": "runs/20261031_200117_e75ea608/instance_1/log/2026-10-31/14_31_28.ulg",
+      "to": "data/validation/session-2026-10-31/20261031_200117_e75ea608/instance_1/log/2026-10-31/14_31_28.ulg",
+      "sha256": "f54e31510e62fed4c0a65954b3866e8a07ae6f810e5c8c08fdd9e6bd68b768f0",
+      "bytes": 1322166
+    },
+    {
+      "from": "runs/20261031_200117_e75ea608/instance_2/px4.log",
+      "to": "data/validation/session-2026-10-31/20261031_200117_e75ea608/instance_2/px4.log",
+      "sha256": "ab72dd9a8cb4ce67b55249605e838d8d42f497a12314cbee76f903e486767609",
+      "bytes": 2348
+    },
+    {
+      "from": "runs/20261031_200117_e75ea608/instance_2/log/2026-10-31/14_31_28.ulg",
+      "to": "data/validation/session-2026-10-31/20261031_200117_e75ea608/instance_2/log/2026-10-31/14_31_28.ulg",
+      "sha256": "39fd8b3803eacb418b09a5dbeeccf9b0ea9e3fae576630bacec5734b5a0ae6f7",
+      "bytes": 1325774
+    },
+    {
+      "from": "runs/20261031_200117_e75ea608/instance_3/px4.log",
+      "to": "data/validation/session-2026-10-31/20261031_200117_e75ea608/instance_3/px4.log",
+      "sha256": "a9e5b5e561e4e3d41bc5b677a1afa1b9a507d9d5f11d7b35ecb911041f86d456",
+      "bytes": 2348
+    },
+    {
+      "from": "runs/20261031_200117_e75ea608/instance_3/log/2026-10-31/14_31_29.ulg",
+      "to": "data/validation/session-2026-10-31/20261031_200117_e75ea608/instance_3/log/2026-10-31/14_31_29.ulg",
+      "sha256": "dd42ca053e0e7f65e57f21972e3b1e584f0ab2331599a6ebbc81a0ac2654a616",
+      "bytes": 1279065
+    },
+    {
+      "from": "runs/smoke_20261031_195750_744979fc/result.json",
+      "to": "data/validation/session-2026-10-31/smoke_20261031_195750_744979fc/result.json",
+      "sha256": "95b505097f4996077ecb73e503298337b8057b04b1e8b6baf4a8822d74dd8e4f",
+      "bytes": 202
+    },
+    {
+      "from": "runs/smoke_20261031_195750_744979fc/launcher.log",
+      "to": "data/validation/session-2026-10-31/smoke_20261031_195750_744979fc/launcher.log",
+      "sha256": "6965f9233513bfc950777fd46dd77d2fdb7d56e776a2a803d72812725c2c8c7b",
+      "bytes": 139
+    },
+    {
+      "from": "runs/smoke_20261031_195844_825e244e/result.json",
+      "to": "data/validation/session-2026-10-31/smoke_20261031_195844_825e244e/result.json",
+      "sha256": "f9ae5b6a8d2acd9fc33e1ad8ce8280cb883191bc1a9db21026556080e52ed297",
+      "bytes": 233
+    },
+    {
+      "from": "runs/smoke_20261031_195844_825e244e/launcher.log",
+      "to": "data/validation/session-2026-10-31/smoke_20261031_195844_825e244e/launcher.log",
+      "sha256": "9f3aa86221903f5fec9eb7144162289bea146c97a594bc9d515a9610d42720d9",
+      "bytes": 200
+    },
+    {
+      "from": "runs/smoke_20261031_195911_f8d2367b/result.json",
+      "to": "data/validation/session-2026-10-31/smoke_20261031_195911_f8d2367b/result.json",
+      "sha256": "974ad085993bc2a1b1bb6fa898a853f2a51224947f5ed9a02082dbe9884f4158",
+      "bytes": 229
+    },
+    {
+      "from": "runs/smoke_20261031_195911_f8d2367b/launcher.log",
+      "to": "data/validation/session-2026-10-31/smoke_20261031_195911_f8d2367b/launcher.log",
+      "sha256": "4950a4e43b398245c057d9a9f4c3f8bb84c8b86434da6d265d120dab754938ba",
+      "bytes": 200
+    },
+    {
+      "from": "runs/smoke_20261031_195951_7cc37854/result.json",
+      "to": "data/validation/session-2026-10-31/smoke_20261031_195951_7cc37854/result.json",
+      "sha256": "8c1ee0a5f892700fe1955ce239dcc7104aee680b3e1827fc73aa6f89aedd5a5e",
+      "bytes": 233
+    },
+    {
+      "from": "runs/smoke_20261031_195951_7cc37854/launcher.log",
+      "to": "data/validation/session-2026-10-31/smoke_20261031_195951_7cc37854/launcher.log",
+      "sha256": "072f241de499029cf91aebbf4b38289580bfc4184479a65101d9778450bde03b",
+      "bytes": 200
+    },
+    {
+      "from": "runs/smoke_20261031_200117_6dc22d6d/result.json",
+      "to": "data/validation/session-2026-10-31/smoke_20261031_200117_6dc22d6d/result.json",
+      "sha256": "f00e469cd8452397d0f22fbdd97268a7480a2a3e65b79d4e28bff8aab33e8ff7",
+      "bytes": 261
+    },
+    {
+      "from": "runs/smoke_20261031_200117_6dc22d6d/launcher.log",
+      "to": "data/validation/session-2026-10-31/smoke_20261031_200117_6dc22d6d/launcher.log",
+      "sha256": "a92c8f181cde0348a0af6cf22fa72cbcb802837b5c2852376a2b37751867326b",
+      "bytes": 200
+    }
+  ],
+  "excluded": "Generated ROMFS copies, executable symlinks, dataman, parameter state, lock files, keys and caches"
+}

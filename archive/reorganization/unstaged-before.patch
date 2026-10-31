@@ -1,0 +1,139 @@
+diff --git a/.gitignore b/.gitignore
+index 165a8e361c..795f7db8e6 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -108,3 +108,6 @@ src/systemcmds/topic_listener/listener_generated.cpp
+ 
+ # colcon
+ log/
++
++.gemini/
++gha-creds-*.json
+diff --git a/ROMFS/px4fmu_common/init.d-posix/airframes/4001_gz_x500 b/ROMFS/px4fmu_common/init.d-posix/airframes/4001_gz_x500
+index bb6bedd386..f2b5c0f3ed 100644
+--- a/ROMFS/px4fmu_common/init.d-posix/airframes/4001_gz_x500
++++ b/ROMFS/px4fmu_common/init.d-posix/airframes/4001_gz_x500
+@@ -17,6 +17,12 @@ param set-default SENS_EN_GPSSIM 1
+ param set-default SENS_EN_BAROSIM 0
+ param set-default SENS_EN_MAGSIM 1
+ 
++# Lenient preflight parameters for multi-vehicle simulation
++param set-default COM_ARM_EKF_YAW 3.0
++param set-default EKF2_GPS_CHECK 0
++param set-default COM_DISARM_PRFLT -1
++param set-default MAV_0_BROADCAST 1
++
+ param set-default CA_AIRFRAME 0
+ param set-default CA_ROTOR_COUNT 4
+ 
+diff --git a/ROMFS/px4fmu_common/init.d-posix/px4-rc.mavlink b/ROMFS/px4fmu_common/init.d-posix/px4-rc.mavlink
+index 15c6c2a793..ca446a194e 100644
+--- a/ROMFS/px4fmu_common/init.d-posix/px4-rc.mavlink
++++ b/ROMFS/px4fmu_common/init.d-posix/px4-rc.mavlink
+@@ -11,7 +11,7 @@ udp_onboard_gimbal_port_remote=$((13280+px4_instance))
+ udp_gcs_port_local=$((18570+px4_instance))
+ 
+ # GCS link
+-mavlink start -x -u $udp_gcs_port_local -r 4000000 -f
++mavlink start -x -u $udp_gcs_port_local -r 4000000 -f -o 14550
+ mavlink stream -r 50 -s POSITION_TARGET_LOCAL_NED -u $udp_gcs_port_local
+ mavlink stream -r 50 -s LOCAL_POSITION_NED -u $udp_gcs_port_local
+ mavlink stream -r 50 -s GLOBAL_POSITION_INT -u $udp_gcs_port_local
+diff --git a/Tools/setup/requirements.txt b/Tools/setup/requirements.txt
+index 2db827d34e..02cddc3b14 100644
+--- a/Tools/setup/requirements.txt
++++ b/Tools/setup/requirements.txt
+@@ -8,7 +8,7 @@ jinja2>=2.8
+ jsonschema
+ kconfiglib
+ lxml
+-matplotlib>=3.0.*
++matplotlib>=3.0.0
+ numpy>=1.13
+ nunavut>=1.1.0
+ packaging
+diff --git a/boards/px4/sitl/default.px4board b/boards/px4/sitl/default.px4board
+index 7dd7ce481a..76f24a4076 100644
+--- a/boards/px4/sitl/default.px4board
++++ b/boards/px4/sitl/default.px4board
+@@ -48,6 +48,7 @@ CONFIG_MODULES_REPLAY=y
+ CONFIG_MODULES_ROVER_POS_CONTROL=y
+ CONFIG_MODULES_SENSORS=y
+ CONFIG_COMMON_SIMULATION=y
++CONFIG_MODULES_SIMULATION_SIMULATOR_MAVLINK=y
+ CONFIG_MODULES_SIMULATION_GZ_BRIDGE=y
+ CONFIG_MODULES_TEMPERATURE_COMPENSATION=y
+ CONFIG_MODULES_UUV_ATT_CONTROL=y
+diff --git a/cmake/gtest/CMakeLists.txt.in b/cmake/gtest/CMakeLists.txt.in
+index e580e00bf8..aeebfe68db 100644
+--- a/cmake/gtest/CMakeLists.txt.in
++++ b/cmake/gtest/CMakeLists.txt.in
+@@ -1,4 +1,4 @@
+-cmake_minimum_required(VERSION 2.8.4)
++cmake_minimum_required(VERSION 3.5)
+ 
+ project(googletest-download NONE)
+ 
+diff --git a/cmake/px4_add_common_flags.cmake b/cmake/px4_add_common_flags.cmake
+index 3daedfa044..7c1fd58793 100644
+--- a/cmake/px4_add_common_flags.cmake
++++ b/cmake/px4_add_common_flags.cmake
+@@ -105,6 +105,9 @@ function(px4_add_common_flags)
+ 			-Wno-unknown-warning-option
+ 			-Wno-unused-const-variable
+ 			-Wno-varargs
++			-Wno-vla-cxx-extension
++			-Wno-deprecated-declarations
++			-Wno-double-promotion
+ 		)
+ 
+ 	elseif ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
+diff --git a/platforms/nuttx/NuttX/apps b/platforms/nuttx/NuttX/apps
+--- a/platforms/nuttx/NuttX/apps
++++ b/platforms/nuttx/NuttX/apps
+@@ -1 +1 @@
+-Subproject commit e37940d8535f603a16b8f6f21c21edaf584218aa
++Subproject commit e37940d8535f603a16b8f6f21c21edaf584218aa-dirty
+diff --git a/platforms/posix/src/px4/common/lockstep_scheduler/CMakeLists.txt b/platforms/posix/src/px4/common/lockstep_scheduler/CMakeLists.txt
+index 15c40a2e99..7b4798c600 100644
+--- a/platforms/posix/src/px4/common/lockstep_scheduler/CMakeLists.txt
++++ b/platforms/posix/src/px4/common/lockstep_scheduler/CMakeLists.txt
+@@ -1,4 +1,4 @@
+-cmake_minimum_required(VERSION 2.8.12)
++cmake_minimum_required(VERSION 3.5)
+ 
+ # We want to test the lockstep schedule even if it is not used otherwise.
+ px4_add_library(lockstep_scheduler
+diff --git a/platforms/posix/src/px4/common/lockstep_scheduler/test/CMakeLists.txt b/platforms/posix/src/px4/common/lockstep_scheduler/test/CMakeLists.txt
+index ea779efc9e..4b30be206b 100644
+--- a/platforms/posix/src/px4/common/lockstep_scheduler/test/CMakeLists.txt
++++ b/platforms/posix/src/px4/common/lockstep_scheduler/test/CMakeLists.txt
+@@ -1,4 +1,4 @@
+-cmake_minimum_required(VERSION 2.8.12)
++cmake_minimum_required(VERSION 3.5)
+ 
+ add_executable(lockstep_scheduler_test
+     src/lockstep_scheduler_test.cpp
+diff --git a/src/drivers/ins/vectornav/libvnc/CMakeLists.txt b/src/drivers/ins/vectornav/libvnc/CMakeLists.txt
+index 8f5cb2cb07..804256c820 100644
+--- a/src/drivers/ins/vectornav/libvnc/CMakeLists.txt
++++ b/src/drivers/ins/vectornav/libvnc/CMakeLists.txt
+@@ -1,4 +1,4 @@
+-cmake_minimum_required(VERSION 2.8.4)
++cmake_minimum_required(VERSION 3.5)
+ project(libvnc C)
+ 
+ include_directories(include)
+diff --git a/src/modules/simulation/gz_bridge/GZBridge.cpp b/src/modules/simulation/gz_bridge/GZBridge.cpp
+index 56c6d028a0..30b29a5a05 100644
+--- a/src/modules/simulation/gz_bridge/GZBridge.cpp
++++ b/src/modules/simulation/gz_bridge/GZBridge.cpp
+@@ -331,7 +331,7 @@ int GZBridge::task_spawn(int argc, char *argv[])
+ 
+ #if defined(ENABLE_LOCKSTEP_SCHEDULER)
+ 			// lockstep scheduler wait for initial clock set before returning
+-			int sleep_count_limit = 10000;
++			int sleep_count_limit = 120000;
+ 
+ 			while ((instance->world_time_us() == 0) && sleep_count_limit > 0) {
+ 				// wait for first clock message

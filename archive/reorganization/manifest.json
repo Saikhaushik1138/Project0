@@ -1,0 +1,2334 @@
+{
+  "date": "2026-10-31",
+  "files": [
+    {
+      "action": "move",
+      "from": "Research paper UAV (2).docx",
+      "to": "docs/references/research_paper.docx",
+      "sha256": "e159612a8c74166e4066637bc91d2ce6987a39fc4ea1f6918c12902c55105d44"
+    },
+    {
+      "action": "move",
+      "from": "Secure internship.pptx",
+      "to": "docs/references/security_presentation.pptx",
+      "sha256": "07365e0aa7aa78c803bb12e775579d356cb3b7705888ea9c79e6ad4228fc24e4"
+    },
+    {
+      "action": "move",
+      "from": "Chacha20_hardened.py",
+      "to": "archive/legacy/python/Chacha20_hardened.py",
+      "sha256": "42244894185d8604a2a6c2c9eb1d69a0a2b0236baec1ee0e0c057b931edab33e"
+    },
+    {
+      "action": "move",
+      "from": "Chacha20_ultra_hardened_V10.py",
+      "to": "archive/legacy/python/Chacha20_ultra_hardened_V10.py",
+      "sha256": "a14d0b0319e773cfe007a76c062f9ad1ade3c1ec1584457c1219a05e83bef02e"
+    },
+    {
+      "action": "move",
+      "from": "Chacha20.py",
+      "to": "archive/legacy/python/Chacha20.py",
+      "sha256": "ae73f848f2d8a442cb98b0f5f478b3c18f81d6c41890fac2d3915def650431cb"
+    },
+    {
+      "action": "move",
+      "from": "myenc.py",
+      "to": "archive/legacy/python/myenc.py",
+      "sha256": "8f9fd44687ea562e851ce30fa85423aafb7e16d0e864446836367ed6e39664be"
+    },
+    {
+      "action": "move",
+      "from": "secure_proxy_v10.py",
+      "to": "archive/legacy/python/secure_proxy_v10.py",
+      "sha256": "d8187e6e198bc1e8fa3d7c062cb11d91afef5d6209a865b179fa852446c4b86d"
+    },
+    {
+      "action": "move",
+      "from": "analyze_stats.py",
+      "to": "archive/legacy/python/analyze_stats.py",
+      "sha256": "5de432cf76dcce5d5a967cfb4f566756c22ce2bbf79a5ef6da689a2132d76cda"
+    },
+    {
+      "action": "move",
+      "from": "hainjec.py",
+      "to": "archive/legacy/python/hainjec.py",
+      "sha256": "b311444c90c37292fc8171845035e03171600656a4a159de29d899de02bb2488"
+    },
+    {
+      "action": "move",
+      "from": "drone_test.py",
+      "to": "archive/legacy/python/drone_test.py",
+      "sha256": "01ad1faaac327996559ecbec4c8db25d2af9fc16af8acedd470ac91ca7da5386"
+    },
+    {
+      "action": "move",
+      "from": "fly_case1.sh",
+      "to": "archive/legacy/launchers/fly_case1.sh",
+      "sha256": "f3d5e3276cd849f75dadef4a587f4f373f109f67a3d1124b4acabf5f207e7943"
+    },
+    {
+      "action": "move",
+      "from": "record_chacha20.sh",
+      "to": "archive/legacy/recording/record_chacha20.sh",
+      "sha256": "12be046912cbf1405ec86dac5a0c1971d33e7365533143e652c2903bbca71347"
+    },
+    {
+      "action": "move",
+      "from": "fly_case5.sh",
+      "to": "archive/legacy/launchers/fly_case5.sh",
+      "sha256": "05f272d7b90e16c489388ca33da1c378edc9e3b0543268690a4f1cffbdf93fdb"
+    },
+    {
+      "action": "move",
+      "from": "run_drone.sh",
+      "to": "archive/legacy/launchers/run_drone.sh",
+      "sha256": "8621393e2f4a4f63a2922c05c0b965cbff845ebf9c560b4a544dac0ecd33b1c7"
+    },
+    {
+      "action": "move",
+      "from": "fly_case4.sh",
+      "to": "archive/legacy/launchers/fly_case4.sh",
+      "sha256": "a5cf16277a3abd74d5d2ce3ae731dcfd43b2857cc2c83054dcbb4012604893b9"
+    },
+    {
+      "action": "move",
+      "from": "fly.sh",
+      "to": "archive/legacy/launchers/fly.sh",
+      "sha256": "67e928aa9c13682ddec75a58ec31ecb19b87e759a1e7cfd3973ea790fd262030"
+    },
+    {
+      "action": "move",
+      "from": "fly_case0.sh",
+      "to": "archive/legacy/launchers/fly_case0.sh",
+      "sha256": "0a41ced6ea50b067058e017cc3e9075498eee44205e099ad4835ee5385c9738a"
+    },
+    {
+      "action": "move",
+      "from": "record_metrics.sh",
+      "to": "archive/legacy/recording/record_metrics.sh",
+      "sha256": "ff0f4d813f9ba4db01c70d5ba9a3894cb1cf79d08c4c08562f6220c1089a3875"
+    },
+    {
+      "action": "move",
+      "from": "fly_gazebo_mavlink.sh",
+      "to": "archive/legacy/launchers/fly_gazebo_mavlink.sh",
+      "sha256": "6ea0a0869bcb102d2958631b9606120dcdd092a83f88fec55bb63b0c2afb22d7"
+    },
+    {
+      "action": "move",
+      "from": "record_myenc.sh",
+      "to": "archive/legacy/recording/record_myenc.sh",
+      "sha256": "456e0ea54f4e4e9a5460f6cb36b2dd2f592947db79ca8ba183e5648d76f36ff3"
+    },
+    {
+      "action": "move",
+      "from": "fly_mavlink.sh",
+      "to": "archive/legacy/launchers/fly_mavlink.sh",
+      "sha256": "35819d3aa97c314c9e3f2e7db1178c8617848eee36efdf396ac0ad9963671c2e"
+    },
+    {
+      "action": "move",
+      "from": "fly_drone.sh",
+      "to": "archive/legacy/launchers/fly_drone.sh",
+      "sha256": "9b3189fc98e1212a411b53555812440a950afb9756e4f7716d7b0288ac0664f7"
+    },
+    {
+      "action": "move",
+      "from": "record_airframe.sh",
+      "to": "archive/legacy/recording/record_airframe.sh",
+      "sha256": "299e9341269f01490c2da2922ad80b30b8eb8affbcea9c0cae359a7d5c5fcfe6"
+    },
+    {
+      "action": "move",
+      "from": "record_gazebo.sh",
+      "to": "archive/legacy/recording/record_gazebo.sh",
+      "sha256": "65a3e978575ce2eb9d761aaaa71b6aff4569ffc4daae2ca63472f20f4bfef420"
+    },
+    {
+      "action": "move",
+      "from": "launch_swarm_gazebo.sh",
+      "to": "archive/legacy/launchers/launch_swarm_gazebo.sh",
+      "sha256": "6fbb0edc4fc81c2c7364a91ee856bc3deeb7885cc0e3b935e48b762bbf7d9a0c"
+    },
+    {
+      "action": "move",
+      "from": "fly_case3.sh",
+      "to": "archive/legacy/launchers/fly_case3.sh",
+      "sha256": "9b69dbee577fba9161611fc4329c8fa2396ae89917176c45392b2d35d72a0f2c"
+    },
+    {
+      "action": "move",
+      "from": "fly_case2.sh",
+      "to": "archive/legacy/launchers/fly_case2.sh",
+      "sha256": "c59a572ec54959f721f8f2baed50b6afc8cf1ea140f04f969e06e2f0a8ad5feb"
+    },
+    {
+      "action": "move",
+      "from": "fly_airframe.sh",
+      "to": "archive/legacy/launchers/fly_airframe.sh",
+      "sha256": "a5acaf7451722c1c563a3a1ba38817bc321ca6f712edfaf9e661530774f581b5"
+    },
+    {
+      "action": "move",
+      "from": "fly_case6.sh",
+      "to": "archive/legacy/launchers/fly_case6.sh",
+      "sha256": "e02b6b4ab496a521cf7e1c60b182f2f35188119149acb2f093d8e5326ee1a39f"
+    },
+    {
+      "action": "move",
+      "from": "ss/swarm_8.py",
+      "to": "archive/legacy/swarm/swarm_8.py",
+      "sha256": "7fb1deacb3612c11cd367f2e942b70a669831a27f0bc586cf0e52bdfcff91e4d"
+    },
+    {
+      "action": "move",
+      "from": "ss/swarm_simulator.py",
+      "to": "archive/legacy/swarm/swarm_simulator.py",
+      "sha256": "ca74c746b409aced2ad929c61296ec9a93ddcd68c682fd1fbdba51b6ca04362c"
+    },
+    {
+      "action": "move",
+      "from": "ss/fly_swarm_8.sh",
+      "to": "archive/legacy/swarm/fly_swarm_8.sh",
+      "sha256": "c94a6c5ce470580af01e25cccc0e16a160b13845db974c7ac69b10a451643f16"
+    },
+    {
+      "action": "move",
+      "from": "ss/swarm_54.py",
+      "to": "archive/legacy/swarm/swarm_54.py",
+      "sha256": "09581bf1c7fddfb88e56e0366fb78d09aa6c4ca4b190803eca46a3da100b23a7"
+    },
+    {
+      "action": "move",
+      "from": "ss/swarm_64.py",
+      "to": "archive/legacy/swarm/swarm_64.py",
+      "sha256": "b812dfc76e283cd9da9e515d6d5fecc57da1cea7684572ed40c5f3b7c96c24e7"
+    },
+    {
+      "action": "move",
+      "from": "ss/fly_swarm_32.sh",
+      "to": "archive/legacy/swarm/fly_swarm_32.sh",
+      "sha256": "101d6d1f1a812cc71278458ce1b2efbe8952aa01c2da69316dc342b0472ceb17"
+    },
+    {
+      "action": "move",
+      "from": "ss/fly_swarm_16.sh",
+      "to": "archive/legacy/swarm/fly_swarm_16.sh",
+      "sha256": "4ded8c50da730d5686160ae3221a78917140437263f42cdab4a15782c68d0c6f"
+    },
+    {
+      "action": "move",
+      "from": "ss/swarm_2.py",
+      "to": "archive/legacy/swarm/swarm_2.py",
+      "sha256": "5d9cb025381421d06976487421c944479aaf9cfa7215d49c1aab6f34a776c81d"
+    },
+    {
+      "action": "move",
+      "from": "ss/fly_swarm_2.sh",
+      "to": "archive/legacy/swarm/fly_swarm_2.sh",
+      "sha256": "0a8fad8235aa74672dfcdcfbe21415c32e33f14c7e9f82d87be9276b9ef7c7a4"
+    },
+    {
+      "action": "move",
+      "from": "ss/fly_swarm_54.sh",
+      "to": "archive/legacy/swarm/fly_swarm_54.sh",
+      "sha256": "4c5240d3099eb2f1fa9ada27546e1d4de03701d9a77751253b70c90f49c140fb"
+    },
+    {
+      "action": "move",
+      "from": "ss/fly_swarm_64.sh",
+      "to": "archive/legacy/swarm/fly_swarm_64.sh",
+      "sha256": "0dc13706442a6e7925d787caba5e440d6b912c5255fc39f77cdacf7549fe1424"
+    },
+    {
+      "action": "move",
+      "from": "ss/swarm_16.py",
+      "to": "archive/legacy/swarm/swarm_16.py",
+      "sha256": "1fc10c637487aa58e591d89e70187a59dc8f5042bcc225a1428c49c0dd32aeec"
+    },
+    {
+      "action": "move",
+      "from": "ss/swarm_32.py",
+      "to": "archive/legacy/swarm/swarm_32.py",
+      "sha256": "135e89c858f63a60675fa03b0adee349959520b3a643b242168986fd4f65e19a"
+    },
+    {
+      "action": "move",
+      "from": "ss/swarm_4.py",
+      "to": "archive/legacy/swarm/swarm_4.py",
+      "sha256": "35eb226a04345dd9f64fb8ec2db0522175a2b03cfc5ede7e8d039d8009ace629"
+    },
+    {
+      "action": "move",
+      "from": "ss/fly_swarm_4.sh",
+      "to": "archive/legacy/swarm/fly_swarm_4.sh",
+      "sha256": "ce63d5efda82d14b02db4500a3d4eb6ad0021dc8f48e288ddc7e859037f3673f"
+    },
+    {
+      "action": "move",
+      "from": "ss/__pycache__/swarm_simulator.cpython-313.pyc",
+      "to": "archive/legacy/swarm/__pycache__/swarm_simulator.cpython-313.pyc",
+      "sha256": "6b22a4809e4da39b9011004f65bb785b8281bf4e14a210206c291e17dc1e1604"
+    },
+    {
+      "action": "move",
+      "from": "recordings_20260715_062734/system_cpu.log",
+      "to": "data/recordings/20260715_062734/system_cpu.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "action": "move",
+      "from": "recordings_20260715_062734/gazebo_stats.log",
+      "to": "data/recordings/20260715_062734/gazebo_stats.log",
+      "sha256": "d84ae03c1de25ab4cc23123adf3a0fc206bea89ef5847b9932eee65ad6cfaf4a"
+    },
+    {
+      "action": "move",
+      "from": "recordings_20260706_085506/mavlink_traffic.pcap",
+      "to": "data/recordings/20260706_085506/mavlink_traffic.pcap",
+      "sha256": "21b76a971a1caec243de169057209e671fd1e62ff73b79ea15ae0d65dc4e918c"
+    },
+    {
+      "action": "move",
+      "from": "recordings_20260706_085506/system_cpu.log",
+      "to": "data/recordings/20260706_085506/system_cpu.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "action": "move",
+      "from": "recordings_20260706_085506/gazebo_stats.log",
+      "to": "data/recordings/20260706_085506/gazebo_stats.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "action": "move",
+      "from": "simulation_fixed.log",
+      "to": "data/historical/simulation_fixed.log",
+      "sha256": "02ef07aa724bdcab00d00308c8dee53205a3f792a05205146c6caa420cce2d9d"
+    },
+    {
+      "action": "move",
+      "from": "jmavsim.log",
+      "to": "data/historical/jmavsim.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "action": "move",
+      "from": "test.log",
+      "to": "data/historical/test.log",
+      "sha256": "96ea6092c2f639b193ee6b0fa1e85909553199336c40e3b01b4a42e03477d140"
+    },
+    {
+      "action": "move",
+      "from": "test_run.log",
+      "to": "data/historical/test_run.log",
+      "sha256": "b1bb4bb0daeed180750f96d9da24613a1e1c76dd0252804b018cea2014da72b7"
+    },
+    {
+      "action": "move",
+      "from": "gz_sim_server.log",
+      "to": "data/historical/gz_sim_server.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "action": "move",
+      "from": "gz_server.log",
+      "to": "data/historical/gz_server.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "action": "move",
+      "from": "sim_output.log",
+      "to": "data/historical/sim_output.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "action": "move",
+      "from": "gz_sim.log",
+      "to": "data/historical/gz_sim.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "action": "move",
+      "from": "mavlink_proxy_v8.log",
+      "to": "data/historical/mavlink_proxy_v8.log",
+      "sha256": "851a47136124d4d6434db1d0183d836c8b89bff3694b00595e4ff95ae26752df"
+    },
+    {
+      "action": "move",
+      "from": "make_debug.log",
+      "to": "data/historical/make_debug.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "action": "move",
+      "from": "simulation.log",
+      "to": "data/historical/simulation.log",
+      "sha256": "ef250c4cdf0d63d65bbf3abc2b20a7328a7010e3e46ccaeea7d77166b95b810a"
+    },
+    {
+      "action": "move",
+      "from": "gz_server.log.zip",
+      "to": "data/historical/gz_server.log.zip",
+      "sha256": "c86ca753df59c77b150ac51bc1d9648d57a5ca7c0ff33ca04f6c66a6d99c3f9d"
+    },
+    {
+      "action": "move",
+      "from": "mav.parm",
+      "to": "data/historical/mav.parm",
+      "sha256": "f10efc6d692141223358345358dbf982b11c9120453443647e3d5af0ddbbd538"
+    },
+    {
+      "action": "move",
+      "from": "mav.tlog",
+      "to": "data/historical/mav.tlog",
+      "sha256": "4c348a66ac345483c23978b4e78097c1f7dc1471a1b9e418222bbb7644783994"
+    },
+    {
+      "action": "move",
+      "from": "mav.tlog.raw",
+      "to": "data/historical/mav.tlog.raw",
+      "sha256": "f22b2752be417b6f961bfc88a701ce64405b082594335301c68322599f53fb7a"
+    },
+    {
+      "action": "move",
+      "from": "make_help.txt",
+      "to": "data/historical/make_help.txt",
+      "sha256": "79ac7468b7566aadb3043e33f8ba678271bf49d3fc17827d7f79c72e70616235"
+    },
+    {
+      "action": "archive_generated",
+      "from": "ROMFS/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "ROMFS/Makefile",
+      "sha256": "da640c0eed9695334bb5b9746a204b63d773f4f1f5b967c86083e195664ef114"
+    },
+    {
+      "action": "archive_generated",
+      "from": "ROMFS/px4fmu_common/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "ROMFS/px4fmu_common/Makefile",
+      "sha256": "14f4aef29dceaff4359e5ee5835175b6f8430dbe1fed00eb2175603114af4eab"
+    },
+    {
+      "action": "archive_generated",
+      "from": "ROMFS/px4fmu_common/init.d-posix/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "ROMFS/px4fmu_common/init.d-posix/Makefile",
+      "sha256": "ba49d131a0fcd7a5ec803eeeca08bba944eaa6c19034fb8f1ad48520f6c96ab6"
+    },
+    {
+      "action": "archive_generated",
+      "from": "ROMFS/px4fmu_common/init.d-posix/airframes/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "ROMFS/px4fmu_common/init.d-posix/airframes/Makefile",
+      "sha256": "37586f17da2d55bb33c6ff71e8524c95c8726efa2a090c6872b64f77b5ff2be8"
+    },
+    {
+      "action": "archive_generated",
+      "from": "ROMFS/px4fmu_common/init.d/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "ROMFS/px4fmu_common/init.d/Makefile",
+      "sha256": "1223872ee170c53ec04547d3a84bd0511f31af52a026d707c8bc9ee2e4818327"
+    },
+    {
+      "action": "archive_generated",
+      "from": "ROMFS/px4fmu_common/init.d/airframes/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "ROMFS/px4fmu_common/init.d/airframes/Makefile",
+      "sha256": "b5452085f8843cbecfd2f3b8c571481713f4cba1a74b435f8e6e703476e8b9e3"
+    },
+    {
+      "action": "archive_generated",
+      "from": "boards/px4/sitl/src/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "boards/px4/sitl/src/Makefile",
+      "sha256": "4a1d0f76b6f695a256c9a25c3faee6820a55049f68180c91cad3d80cdb77560e"
+    },
+    {
+      "action": "archive_generated",
+      "from": "msg/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "msg/Makefile",
+      "sha256": "e4e8f25a2b824881722c6125041210b8b8918e7d08d3b5a37c7f56ee754b707b"
+    },
+    {
+      "action": "archive_generated",
+      "from": "platforms/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "platforms/Makefile",
+      "sha256": "3505a1871775465b9c8264bf1ccce9299bb78bf64170cbf5a39613c1a3c763a3"
+    },
+    {
+      "action": "archive_generated",
+      "from": "platforms/common/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "platforms/common/Makefile",
+      "sha256": "d4d9add9e277a8148f9855a778743eb42319f92bf53fad2bb6cef610ac216903"
+    },
+    {
+      "action": "archive_generated",
+      "from": "platforms/common/px4_work_queue/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "platforms/common/px4_work_queue/Makefile",
+      "sha256": "5a484ddb7d407fb7a27177ec59a590755152b46236261e34056f31eb5276b511"
+    },
+    {
+      "action": "archive_generated",
+      "from": "platforms/common/px4_work_queue/test/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "platforms/common/px4_work_queue/test/Makefile",
+      "sha256": "8bd80657f8c0aa6defac0f73e48e2fa2ba0e7f1cd09f7305bec45379d485765d"
+    },
+    {
+      "action": "archive_generated",
+      "from": "platforms/common/uORB/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "platforms/common/uORB/Makefile",
+      "sha256": "c712469101bfdb326668e15f65ee421b04f03150c4e231842df85102ac5442bd"
+    },
+    {
+      "action": "archive_generated",
+      "from": "platforms/common/uORB/test/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "platforms/common/uORB/test/Makefile",
+      "sha256": "4d02ab3196f89ecba75821b5f5a65de769ea3181b51fc8bddf0d4d465b92847e"
+    },
+    {
+      "action": "archive_generated",
+      "from": "platforms/common/uORB/uORB_tests/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "platforms/common/uORB/uORB_tests/Makefile",
+      "sha256": "2770d7cb6692f36e044dbaa006dbd8eb75553a1b7ac574be9be56c7a50b07e34"
+    },
+    {
+      "action": "archive_generated",
+      "from": "platforms/common/work_queue/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "platforms/common/work_queue/Makefile",
+      "sha256": "012f638d8a4382eba1730baffed321980769b5d5f0ed556e6a66dece43dc299d"
+    },
+    {
+      "action": "archive_generated",
+      "from": "platforms/posix/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "platforms/posix/Makefile",
+      "sha256": "5ed66805bc0eced473a678ec7d400ea4f854784ed9243ae92658a33ef976db4d"
+    },
+    {
+      "action": "archive_generated",
+      "from": "platforms/posix/src/px4/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "platforms/posix/src/px4/Makefile",
+      "sha256": "4e1231e9e42d28891386154bd714dbb058530b593c423d4e009cf3f140663325"
+    },
+    {
+      "action": "archive_generated",
+      "from": "platforms/posix/src/px4/common/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "platforms/posix/src/px4/common/Makefile",
+      "sha256": "9fa9758b359b26c8c20a1cbfc0b40455d568b441edee2c95f244dc7cff83674b"
+    },
+    {
+      "action": "archive_generated",
+      "from": "platforms/posix/src/px4/common/lockstep_scheduler/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "platforms/posix/src/px4/common/lockstep_scheduler/Makefile",
+      "sha256": "3375c92d4e01b45bfdf5463bc16636204ed5bb01bd63272006003b72d751d3cc"
+    },
+    {
+      "action": "archive_generated",
+      "from": "platforms/posix/src/px4/common/px4_daemon/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "platforms/posix/src/px4/common/px4_daemon/Makefile",
+      "sha256": "9e8606145f0733c09edd11a492f21b70e5abdf942c01de468cbd3ef773f021a4"
+    },
+    {
+      "action": "archive_generated",
+      "from": "platforms/posix/src/px4/generic/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "platforms/posix/src/px4/generic/Makefile",
+      "sha256": "ad7283ecc4ae0c2b558edec755766daca28bad55a955e7d032708455c9ef5899"
+    },
+    {
+      "action": "archive_generated",
+      "from": "platforms/posix/src/px4/generic/generic/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "platforms/posix/src/px4/generic/generic/Makefile",
+      "sha256": "65ca3bd1ea61655bbbb8f88f4763b1f686a10b3cc5cbb48eb4d8f4cddf7e6877"
+    },
+    {
+      "action": "archive_generated",
+      "from": "platforms/posix/src/px4/generic/generic/tone_alarm/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "platforms/posix/src/px4/generic/generic/tone_alarm/Makefile",
+      "sha256": "ee95d408b723e4f36cdc439a0b16a54aca369fbb9d991bd221ed19d3f8c5ceb4"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/drivers/camera_trigger/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/drivers/camera_trigger/Makefile",
+      "sha256": "bea0e3d26cdee12dff3c03c466e0b8b0dcdbe819e47ae9103128b9589171618e"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/drivers/gnss/septentrio/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/drivers/gnss/septentrio/Makefile",
+      "sha256": "2ae1c5aa305f76b026a70ac617ea5a5ca6fca06451f957a25e652d35bfdb88e5"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/drivers/gps/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/drivers/gps/Makefile",
+      "sha256": "157ecd1c6e9e027de9597789ae106dfa750afaeb800e8807453afc223c297a5f"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/drivers/osd/msp_osd/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/drivers/osd/msp_osd/Makefile",
+      "sha256": "bf0a05337fb808a81a9b440e72471b9c69a55bffb197907459ad72b6b47cafbf"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/drivers/osd/msp_osd/MessageDisplay/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/drivers/osd/msp_osd/MessageDisplay/Makefile",
+      "sha256": "a74798bdaf08f78d956834286e77be581328cfc728ce1c710acba1d90a3aeddd"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/drivers/tone_alarm/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/drivers/tone_alarm/Makefile",
+      "sha256": "d4d571dabf741c90e76a8492da206d84f570e0a84d68e380e411a5ce6c1f0d86"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/examples/dyn_hello/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/examples/dyn_hello/Makefile",
+      "sha256": "b479c6d20306a4d484333732fa0be9b045eef21a2b5687bb8eb37686f6bfadd4"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/examples/fake_gps/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/examples/fake_gps/Makefile",
+      "sha256": "0e7544806716421127e4aeef0f0339f684a5239028986b6f901d9a78c7443f03"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/examples/fake_imu/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/examples/fake_imu/Makefile",
+      "sha256": "41fb6d41f7ca56b26933f0d23c0256bb403b241a0e11b4fddb8ae8daca6e1451"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/examples/fake_magnetometer/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/examples/fake_magnetometer/Makefile",
+      "sha256": "5ff99a9d23269bd39ac0ca012854c06c30d3402bbf1fd54c46d8aac3c79ad690"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/examples/hello/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/examples/hello/Makefile",
+      "sha256": "59563b86f528ebfdfe68a2656903f7b71efe235f6bcb9d0a13a504e10f81d819"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/examples/px4_mavlink_debug/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/examples/px4_mavlink_debug/Makefile",
+      "sha256": "b7a3c45a861d39523826457f767eb81eff73ac6f398d4e6068d6e7ef897cd61b"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/examples/px4_simple_app/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/examples/px4_simple_app/Makefile",
+      "sha256": "027d10c8c4518af4d59ad7f1627400e9dc74170e4e0ccdf5dca881a0d647e410"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/examples/work_item/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/examples/work_item/Makefile",
+      "sha256": "eb494626e3827858a44c987794b4561b3ca986c8c978a0031367422f7d4fd5de"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/Makefile",
+      "sha256": "20d673162584d757395300122ec867ce60c395bb3c263c7ae40661abcdcc3774"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/adsb/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/adsb/Makefile",
+      "sha256": "84c7ec9968561bfce16abbb6470ddecc4cfe2186cb52e7727a445de478e4e9d9"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/airspeed/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/airspeed/Makefile",
+      "sha256": "5645ad91e198cdc19f3c5d6c211067dfd759454418e0689793827aa3776ac4e0"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/atmosphere/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/atmosphere/Makefile",
+      "sha256": "86d8dd4ff09b5e7a1f802ecb78cdd7e0b79a3ba19303fd11c3d7b49907a65d45"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/battery/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/battery/Makefile",
+      "sha256": "e3dab22c3d6465c677eb8eb97439c8e528e31e14091be6fa13a00166e1727b93"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/button/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/button/Makefile",
+      "sha256": "b7c580eca777aedff5930e9c4464881adcad9f246e071e932dd0da2ddd799938"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/cdev/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/cdev/Makefile",
+      "sha256": "40cbf2ec608b06359701b0d95757b61793904b284930d3e22f5128ae9ef5538b"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/cdev/test/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/cdev/test/Makefile",
+      "sha256": "d3f9a1a243edaba361166fe5354873baa9a8a2a8304a61d86c21e4d9f1d3e339"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/cdrstream/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/cdrstream/Makefile",
+      "sha256": "098070118c2d0ddf9a888a9b58da80d0f3f963719a5a66bc4067d16b1b9feec7"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/circuit_breaker/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/circuit_breaker/Makefile",
+      "sha256": "8c694a4521598c257f5b02f6004d3f0b2efc5c231d684b736251b4a01c6c256d"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/collision_prevention/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/collision_prevention/Makefile",
+      "sha256": "e1f944e6f57de1dbeba52c7e77a64ea7f106ca49b4a8880a4ba479ef01bae339"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/component_information/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/component_information/Makefile",
+      "sha256": "4f910608faad6e57ebd7b8d2e469680e61a2b94aafc11a4d500a99481810a828"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/control_allocation/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/control_allocation/Makefile",
+      "sha256": "56f681a636ae42f532e26313cea3489f1358c5b13d0d11b67a1b92bae28154d1"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/control_allocation/actuator_effectiveness/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/control_allocation/actuator_effectiveness/Makefile",
+      "sha256": "e13e538d7f06d56b874da39193c5da94cd74006da6b814362fd108d230549f25"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/control_allocation/control_allocation/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/control_allocation/control_allocation/Makefile",
+      "sha256": "8883ffaa74dfae2cfe3104b3b74edc1961faa52c8fc213bc6f0e8e10c875c9fe"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/controllib/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/controllib/Makefile",
+      "sha256": "fea4f7d188c9c647cefe1ffd1c46a970e15fe6d050537d275675e8e4d812df0d"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/controllib/controllib_test/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/controllib/controllib_test/Makefile",
+      "sha256": "a4545e87b2e8b363eff75aaf4592f81cd219f9cc9a9c862dedddeeb74bd2b4f5"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/conversion/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/conversion/Makefile",
+      "sha256": "53f8efc926e0ab39febfa31d9c11c98535c4dc3b8c19afe789907b9f5f1dd615"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/crc/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/crc/Makefile",
+      "sha256": "34a00d9875d7a0d0ca94866c4538f4de2896ef1fa40587b9777177a2ecf62c83"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/crypto/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/crypto/Makefile",
+      "sha256": "9a0437fff8716da37154392962a98d77a168f8d7f3c98fda0a3172bde8cb9bc8"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/dataman_client/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/dataman_client/Makefile",
+      "sha256": "0f2d7aa0f3d2451efecb6f7c0e72b9673486b79c15c4a9b61dc66c96c370ecd7"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/drivers/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/drivers/Makefile",
+      "sha256": "72695640212b70099886aeadc4f919ac8d42cc2984e0aa4506831c935574c9d7"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/drivers/accelerometer/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/drivers/accelerometer/Makefile",
+      "sha256": "6dba6a64e5e72e41553f8759ee2f6633c7baefbc69968ddd817839757ecb1aac"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/drivers/barometer/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/drivers/barometer/Makefile",
+      "sha256": "28a543e0f8aa366512624c8e393bc6a9be97175719ef283197de6782c415a325"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/drivers/device/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/drivers/device/Makefile",
+      "sha256": "43979844909c5aeda7ec45c6fb262fb7e12cb216c524e182a006df40246c0389"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/drivers/gyroscope/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/drivers/gyroscope/Makefile",
+      "sha256": "3ac7fa4f61ee4cef06237921c6fd8b775ffddd54f14c5f17297772a1065c9e16"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/drivers/led/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/drivers/led/Makefile",
+      "sha256": "878a8b151893389753693be3797c973ec05bb1428862595930395a8a2e04d0e7"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/drivers/magnetometer/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/drivers/magnetometer/Makefile",
+      "sha256": "1032c4c81f5db9461a7715851d94f80c0790ecf9d316b01503581e15f9ecbb40"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/drivers/rangefinder/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/drivers/rangefinder/Makefile",
+      "sha256": "f1c87ff8e0319b4c2e04712ed54347ac953b0c76d592fd323497639c819bfa3e"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/drivers/smbus/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/drivers/smbus/Makefile",
+      "sha256": "79b1e7e3c5bcf1d52e776d420beee6054cc7360393e2a1caa8cab938495fe603"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/drivers/smbus_sbs/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/drivers/smbus_sbs/Makefile",
+      "sha256": "618b2696fefe99e4bb4e3ab8c26c2a0f441c0c341358ec73987a4376dcbd8ebb"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/events/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/events/Makefile",
+      "sha256": "383130065f9ac5fbc9956622cf8ffd05a43079191cbd807bc673fbbe65af801a"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/field_sensor_bias_estimator/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/field_sensor_bias_estimator/Makefile",
+      "sha256": "c89b5d16fb6e870016c629ffc0db035abd38e8a3ee668edc8fc89f6a245c4bce"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/fw_performance_model/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/fw_performance_model/Makefile",
+      "sha256": "19e397a5a8c835c9da4f16cab2d442928384d1d5f9e076183ffd21c8df02e418"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/geo/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/geo/Makefile",
+      "sha256": "c46fc2f172b8b9429199dbfd3398b25a2468afd485038cbf74ad76164b6d36b5"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/gnss/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/gnss/Makefile",
+      "sha256": "5922449da2e4425cd9114c21a97ffeaa9165847546542a4867f3f8029aa82379"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/heatshrink/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/heatshrink/Makefile",
+      "sha256": "769744ef049fd450f1ca8e68efe8ded15afebcd61318a84292d4ab83baf3e803"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/hysteresis/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/hysteresis/Makefile",
+      "sha256": "e1d080e2d8afb5fc4f73a64403757c255ad00492006a77c8b5f1dea7e5a64e17"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/lat_lon_alt/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/lat_lon_alt/Makefile",
+      "sha256": "1227b3442ceea1f613403e58ab33291560baeaf0c167c5fc6103edfdc6ab5ba3"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/led/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/led/Makefile",
+      "sha256": "fc56ad33a7ab6d9419c991c3115c9549e5f5a7377d10abb502385a647687e905"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/mathlib/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/mathlib/Makefile",
+      "sha256": "eda9e843b547c48ae84e5ce0a4e1587527513ac72f7a14ebcd3c6a7cb022127e"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/matrix/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/matrix/Makefile",
+      "sha256": "40f6b4a2b51da2e507365e3fafa5f6130a0b9b7f45e7e11762153b32dc527a2a"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/metadata/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/metadata/Makefile",
+      "sha256": "a72a93919d7319d62c9c3182544e97c22fb21442666ee8b80d569a513cc36189"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/mixer_module/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/mixer_module/Makefile",
+      "sha256": "a3c049608a4e2eb533843b62a30c13730177326cdb98867ccfab5c96e619b39b"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/motion_planning/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/motion_planning/Makefile",
+      "sha256": "c7fd771060a7b53873f961226b84b38bcd3e51e096ea254e091a40a47c7b12c6"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/npfg/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/npfg/Makefile",
+      "sha256": "dfbbe3af15359bb5305e1c950f9479148075ba13ff0414cf956fc7b64c37c24e"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/parameters/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/parameters/Makefile",
+      "sha256": "556a1517ef05678347b83236998c20091d5c97d5668539df59f744097339acfa"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/perf/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/perf/Makefile",
+      "sha256": "726f41243bcd2b029e75e8b6fd4ccfb75ee3a7a1385a4868de5ab9e274bc66e7"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/pid/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/pid/Makefile",
+      "sha256": "72654591448f6ae1901a749fb76c1f169ae90b480e0948af15403c0e0502a088"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/pid_design/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/pid_design/Makefile",
+      "sha256": "b4ee6c38df6f34de6da4756ad1bebf59207cdd114a88bb58b21b92fc37d3c686"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/pure_pursuit/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/pure_pursuit/Makefile",
+      "sha256": "4e83e4706c9be7b9422700adc40e409895904c477fae3434bacfdba96542225d"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/rate_control/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/rate_control/Makefile",
+      "sha256": "943375725e86f651a49133d982cc63c8c54db4937f83cebc6da4f88ac80c78d2"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/rc/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/rc/Makefile",
+      "sha256": "56037b6243354af64b5c390c5b2a0f22a7598d89501dc6b2ab54817b2d9acb3f"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/rc/rc_tests/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/rc/rc_tests/Makefile",
+      "sha256": "554e7a3df0f64e286e3670aeea77dd8671f2d17545d871d0c91da9d83259077a"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/ringbuffer/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/ringbuffer/Makefile",
+      "sha256": "cc2c7f39a9456fc59dc3a0c45f7c2160094433511bbc1bff9326f408d9f9128f"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/rl_tools/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/rl_tools/Makefile",
+      "sha256": "6009339721300dbf0577553a6cf00548f53ee841b90f6398dad4a54c1075fca6"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/rover_control/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/rover_control/Makefile",
+      "sha256": "830bf5ec055828aa5d38ce8575af3d86f9ef17f76a8a0798785831090e0f506d"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/rtl/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/rtl/Makefile",
+      "sha256": "07335797c97ecb07b427f839c546370059ca256425a4e18aabb70af770711f45"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/sensor_calibration/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/sensor_calibration/Makefile",
+      "sha256": "014dd334ca811738c03bf3c573751ba6f44078267a66b715a349f8cb172e5e7f"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/slew_rate/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/slew_rate/Makefile",
+      "sha256": "127b2f0f8d43e5c9e8eed6588eac1f71aa2bdc2d03207f74cffa06e24928f335"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/stick_yaw/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/stick_yaw/Makefile",
+      "sha256": "73be55397a320e9019906a11f3c32feacd18084bfd0bab84fc8080dbb6224055"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/sticks/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/sticks/Makefile",
+      "sha256": "6e399b6d2f73a74cb069dbdbbbe9a1320818ee093d29eed13d152fe72c26c589"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/system_identification/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/system_identification/Makefile",
+      "sha256": "954ede712e5550a7f34f4afcbf318b45bb0c697a308c654599d766e878c8f883"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/systemlib/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/systemlib/Makefile",
+      "sha256": "443458013f47c12bcdeaa29df9b5d558b2e0403cbe797f40e291f555a94a0778"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/tecs/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/tecs/Makefile",
+      "sha256": "e2eb4b39f9fc0e6794ff753cf8a9683a6bf6f2e5867e3d5c7b5feada9a7601a2"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/tensorflow_lite_micro/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/tensorflow_lite_micro/Makefile",
+      "sha256": "aab57e84016891b53128fc18fb84bc7a63656be0ab679684e4f0448e70addc6a"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/terrain_estimation/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/terrain_estimation/Makefile",
+      "sha256": "1c9df79e92ee513428da85979dafc1bbc465ddfb63e1fd8a052a91f0136ffda7"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/timesync/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/timesync/Makefile",
+      "sha256": "5a840fb19e25cc7689fd6dbbfe3ed2b6ea39b811cc83706a6ac3bb9fab51a06c"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/tinybson/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/tinybson/Makefile",
+      "sha256": "3a39025c1804422263fb205ec806a64f489b3600eefede0ee5fa2a3901dc0238"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/tunes/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/tunes/Makefile",
+      "sha256": "6205bff58468a184c960401e5f43bed9a6381d64b07a7ae196712dd61edbd1b9"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/variable_length_ringbuffer/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/variable_length_ringbuffer/Makefile",
+      "sha256": "dbcbbb56446da14bbcaaefe76b8bc596487ed0ff7a6891da7627c41f66d27c5e"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/version/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/version/Makefile",
+      "sha256": "d8ee37fd2fd6da42b6d7354230102e47a7a4f581673e3299a1563048c677e4ad"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/weather_vane/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/weather_vane/Makefile",
+      "sha256": "c57ac68203480e1daaf013ee2b90c5af065098f33b4710c9ac23332873b5dea2"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/wind_estimator/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/wind_estimator/Makefile",
+      "sha256": "0345a555ef25effd1346434ba1000df1010afbfb0d84077ca61709c4f7594b5b"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/wind_estimator/test/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/wind_estimator/test/Makefile",
+      "sha256": "7966fefef9a3f7943e707b39278d8c4615d7538d33a645899fbe956815dfbdc0"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/lib/world_magnetic_model/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/lib/world_magnetic_model/Makefile",
+      "sha256": "23cf767732f2253a747d93eb74e9e760881ef502bd402ae2eb6e7a65799710fb"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/airship_att_control/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/airship_att_control/Makefile",
+      "sha256": "ee8b82169d64c412d9f2444ab685adbfd711709f5c9e6e9c6dcc3bff82b5d359"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/airspeed_selector/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/airspeed_selector/Makefile",
+      "sha256": "eb4609e0cb77001c0d5509c3b7f8dd7f2434f95cd7993a75073cec4da823443a"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/attitude_estimator_q/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/attitude_estimator_q/Makefile",
+      "sha256": "33b3251a076bf14caca6dea8aac61df07e47df67695760cf12ead044ac8a8518"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/camera_feedback/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/camera_feedback/Makefile",
+      "sha256": "b01f2d9ba19570725547824008bb96febda0904d0e83e66af60c7a2ff9d23515"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/commander/Arming/ArmAuthorization/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/commander/Arming/ArmAuthorization/Makefile",
+      "sha256": "7fa4d4bb21d47957f102b8557ddaad979d28dcac844465709f1898199cb6e048"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/commander/Arming/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/commander/Arming/Makefile",
+      "sha256": "34a77e500e82bc28e988271ba17e2fa6048c45cdfda90c863b68fee1393d79da"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/commander/HealthAndArmingChecks/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/commander/HealthAndArmingChecks/Makefile",
+      "sha256": "70e6c4d801f12fc5739eb715de3c3d349482d131cd4f3b9dd945638d1b36a65f"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/commander/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/commander/Makefile",
+      "sha256": "e6f4c1fe9619b4698a50034772bbf2ca40fc7ca934cc8b0aab2b198c5713d303"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/commander/ModeUtil/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/commander/ModeUtil/Makefile",
+      "sha256": "611eaaa709f12f9c85cf011cccc76ebe5a923ce9f8110984ad2bd277f1986ff8"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/commander/MulticopterThrowLaunch/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/commander/MulticopterThrowLaunch/Makefile",
+      "sha256": "e08ae55aadd879c3af9d2a92f1f97992e7599565646c8ac4335b39e84878fb62"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/commander/failsafe/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/commander/failsafe/Makefile",
+      "sha256": "ca561a22a4ea1390750a107159d0d54db2b3a3cbfb6659a5e337a63d932b290d"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/commander/failure_detector/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/commander/failure_detector/Makefile",
+      "sha256": "ab53176559871480664cfae434131780fa298a8babf78c490d0fb47768dec3aa"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/control_allocator/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/control_allocator/Makefile",
+      "sha256": "c0665eaf698a1972de84094ded7daf955983d3a4bd236fd117b1c75fdf3f7a6e"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/control_allocator/VehicleActuatorEffectiveness/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/control_allocator/VehicleActuatorEffectiveness/Makefile",
+      "sha256": "1fac008dce5870f1636ac94f19aeda0632a7eeb36c63189f092efe02b4a41b7a"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/dataman/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/dataman/Makefile",
+      "sha256": "acf1bb31ed4f27cf1650d958993b075538cab9e340c94b0ed74671b92e5f88aa"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/ekf2/EKF/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/ekf2/EKF/Makefile",
+      "sha256": "904fbf2cdbcf542b6b53949e5aa2c0fa53d95d5987e8100c521017185e99375e"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/ekf2/EKF/bias_estimator/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/ekf2/EKF/bias_estimator/Makefile",
+      "sha256": "cda72b3301e9ee16ea012aa60503674167cb9214e7256634569c6b58e9aee951"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/ekf2/EKF/output_predictor/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/ekf2/EKF/output_predictor/Makefile",
+      "sha256": "290fefcfa05c88af20af3643c617c40046e0c6fa3596335d89520d3691075b40"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/ekf2/EKF/yaw_estimator/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/ekf2/EKF/yaw_estimator/Makefile",
+      "sha256": "7b0f64c258b15e561af9ecd3047a537ac2506aab60ccad232f6c5e706d5e0ae7"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/ekf2/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/ekf2/Makefile",
+      "sha256": "1543d99b6bee33d769f80e8c1cca8ba35aa297f3e8ea22fc2cb0fcb2c1967552"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/events/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/events/Makefile",
+      "sha256": "d4eb63da385f6ca2d618583e030560ad75b36e2010a480e4ea456008d99ae129"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/flight_mode_manager/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/flight_mode_manager/Makefile",
+      "sha256": "d4c97ed353083aa0372b9bcb99b0c672b412abb5f0354ab3d604b05f72a891f0"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/flight_mode_manager/tasks/AltitudeCruise/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/flight_mode_manager/tasks/AltitudeCruise/Makefile",
+      "sha256": "7e4f9c00a03bc54b1ca8fde65f4785e0b92d8db3eee145920d525c5fdeb4b267"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/flight_mode_manager/tasks/Auto/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/flight_mode_manager/tasks/Auto/Makefile",
+      "sha256": "bcc6a0622da63c6804ee4b8e022ae161dde73b46e8741c34aa192d270918c18f"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/flight_mode_manager/tasks/AutoFollowTarget/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/flight_mode_manager/tasks/AutoFollowTarget/Makefile",
+      "sha256": "97d2b16d5fe0d86cd209251704b76000779c3a23d88ac39f3c02e219d7bd1f75"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/flight_mode_manager/tasks/AutoFollowTarget/follow_target_estimator/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/flight_mode_manager/tasks/AutoFollowTarget/follow_target_estimator/Makefile",
+      "sha256": "c239913bb76fb163c450959c226f32ddfa6aaf0a00308ce191d01af824c5ef52"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/flight_mode_manager/tasks/Descend/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/flight_mode_manager/tasks/Descend/Makefile",
+      "sha256": "51c0417aa0eb96837e277853425df637c26432c8bef1d665ba1490d11f229566"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/flight_mode_manager/tasks/Failsafe/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/flight_mode_manager/tasks/Failsafe/Makefile",
+      "sha256": "4505e0d0386193f60571ca196816a3187f41188c803dc268b36d1579530b0cd4"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/flight_mode_manager/tasks/FlightTask/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/flight_mode_manager/tasks/FlightTask/Makefile",
+      "sha256": "20e3e789c3029d064f190c079318ca02c38d4b0e5583d2f39a13ff0b414e2f4c"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/flight_mode_manager/tasks/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/flight_mode_manager/tasks/Makefile",
+      "sha256": "71e04801478b90ba4107e20d20b2b9ce2c615c04c1a6659b385b14ce3311526c"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/flight_mode_manager/tasks/ManualAcceleration/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/flight_mode_manager/tasks/ManualAcceleration/Makefile",
+      "sha256": "fd02a28988fc2f2d2b2b0e6a14bd7d9fc752674b61847632f92d5219ec4ffb8e"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/flight_mode_manager/tasks/ManualAccelerationSlow/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/flight_mode_manager/tasks/ManualAccelerationSlow/Makefile",
+      "sha256": "e7efcb16639fce58b493106d04027ab49562620f26ee45eb92f00ea29e44c6c0"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/flight_mode_manager/tasks/ManualAltitude/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/flight_mode_manager/tasks/ManualAltitude/Makefile",
+      "sha256": "1ceff395a9272c74ceae500fa97d77cf3f860c95bd450cb3b63a1bf085bd1748"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/flight_mode_manager/tasks/ManualAltitudeSmoothVel/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/flight_mode_manager/tasks/ManualAltitudeSmoothVel/Makefile",
+      "sha256": "b9d3b13f5da25c26afbd7ea852c6929e0d746660868f8afead23e0373e8b57aa"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/flight_mode_manager/tasks/ManualPosition/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/flight_mode_manager/tasks/ManualPosition/Makefile",
+      "sha256": "255492c468c3655eeac0765f2b511abb0ed8712e117e53f268eab5ba1826af14"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/flight_mode_manager/tasks/Orbit/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/flight_mode_manager/tasks/Orbit/Makefile",
+      "sha256": "dc56d52ebdaec86bce4989eac24022bf85592d0803bd7156d418afb1bdddd619"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/flight_mode_manager/tasks/Transition/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/flight_mode_manager/tasks/Transition/Makefile",
+      "sha256": "62be58987c7eca743a330078ad7aeaf446c9b00b089d6173de8831ec1a0b7cc3"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/flight_mode_manager/tasks/Utility/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/flight_mode_manager/tasks/Utility/Makefile",
+      "sha256": "579f11e065087207acb8ef1b04c4b2b0771a9a1977a174158dbd7e2bbb92bece"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/fw_att_control/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/fw_att_control/Makefile",
+      "sha256": "4839d6bc4f8caae65f4df634b8340f497fdbe6088d3b75ff94c16c6a2e2b510f"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/fw_autotune_attitude_control/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/fw_autotune_attitude_control/Makefile",
+      "sha256": "70a7865d0c6eae9dff53696671b93bee6e129566782a2288254a64515a7f604a"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/fw_lateral_longitudinal_control/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/fw_lateral_longitudinal_control/Makefile",
+      "sha256": "32933490e69b67bc581efed4f7a7fa6bab6562587a6ebab8bc5187170dd9df41"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/fw_mode_manager/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/fw_mode_manager/Makefile",
+      "sha256": "2c3c8a0cacab37d387af17f112a5887d1dde941eba5eac316072eabfc2a2c7c0"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/fw_mode_manager/figure_eight/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/fw_mode_manager/figure_eight/Makefile",
+      "sha256": "d2877ae393249785b71a8c8cf00e58683de792dea98872cb431903fe59621d18"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/fw_mode_manager/launchdetection/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/fw_mode_manager/launchdetection/Makefile",
+      "sha256": "f78c4f435a3110e92124cec2105f8158b68ae4d84effdeedf4cb420455455cf0"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/fw_mode_manager/runway_takeoff/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/fw_mode_manager/runway_takeoff/Makefile",
+      "sha256": "6b2dc360f7654f5542f9ba4d2236c512d0b2eeafd4ed55be02e2b739103dc527"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/fw_rate_control/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/fw_rate_control/Makefile",
+      "sha256": "928d4b9cf42cbfb1484e88edff2063569a907b161962c9a4517406d207679f58"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/gimbal/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/gimbal/Makefile",
+      "sha256": "a02648be62b3695e11897ac341c86e662ff6e359b7da1902eaf244cf806ba612"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/gyro_calibration/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/gyro_calibration/Makefile",
+      "sha256": "c152783c83f7e59a1a6c07d6877734d7bbee2ed11a6f2780b573ba2696dccb5f"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/gyro_fft/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/gyro_fft/Makefile",
+      "sha256": "cccd4c4d60c4e648b3649517ccb7a1e14e5a2a65d2574baed27016e3fe20e08c"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/land_detector/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/land_detector/Makefile",
+      "sha256": "d17f56145209195506233761d878a9e9fa96e75644ee06689745a99590e2e8af"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/load_mon/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/load_mon/Makefile",
+      "sha256": "04b1e1add897181f77f1242b14deb00b5cbeb4682225bd4eb281f401b5345d7d"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/local_position_estimator/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/local_position_estimator/Makefile",
+      "sha256": "00701a5f00903176bc745c718cc92c115864cdb622b8c59e2eb4cfd215a366ea"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/logger/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/logger/Makefile",
+      "sha256": "4d5d1234d7177cce7710b327d2d67df7807c8f4222998e1755b109f3049b746e"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/mag_bias_estimator/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/mag_bias_estimator/Makefile",
+      "sha256": "4e5a0b59d7f949087b3556f0333de97ab4a2a96d6e9a681a19aef6d4bc9db81b"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/manual_control/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/manual_control/Makefile",
+      "sha256": "1eeb4fc00a036a0a15f316390e81a926e99ec0497404de890c0bd998e875ede6"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/mavlink/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/mavlink/Makefile",
+      "sha256": "f6c8c2e5d3cc3479fe6c1f268dd9870bced7978ef4f5aea1dfaa1064089de4da"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/mc_att_control/AttitudeControl/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/mc_att_control/AttitudeControl/Makefile",
+      "sha256": "e5e9be3a86929b09666b986184079341dc222b911cc7edfc54ac4d21165a9576"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/mc_att_control/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/mc_att_control/Makefile",
+      "sha256": "b57fbd2bd5519eb3653fa6577eca470eed1fc3d44b0152876e55c2c7f1a4f3bb"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/mc_autotune_attitude_control/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/mc_autotune_attitude_control/Makefile",
+      "sha256": "c26e6bb01e614e8a916aa18f9f54af3e08f8cad7529dd3e279e17a279bd014a2"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/mc_hover_thrust_estimator/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/mc_hover_thrust_estimator/Makefile",
+      "sha256": "6fe02a1a342aa6809f6fd3c0da28e1dc6c6db029e84437b0d49d2b274948b5c6"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/mc_pos_control/GotoControl/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/mc_pos_control/GotoControl/Makefile",
+      "sha256": "83127e51a5d2e67f46038b58283ef9650eb95c57dcf2f9075350c051fd6f9ddf"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/mc_pos_control/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/mc_pos_control/Makefile",
+      "sha256": "c900aca27f779824aa4984404c038593e85ade0821047b46bd42611e75d447da"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/mc_pos_control/PositionControl/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/mc_pos_control/PositionControl/Makefile",
+      "sha256": "b7f4bc77f768d490cde3389b6a297345865efe72f21f4308dc680098f6d33ce0"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/mc_pos_control/Takeoff/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/mc_pos_control/Takeoff/Makefile",
+      "sha256": "a86111e7329bb913815dcab7a3178d3c696df38ea304455e19681b486a788018"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/mc_rate_control/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/mc_rate_control/Makefile",
+      "sha256": "51b287b2cf723405dfde07d5799ad6d5f215a9801c196a72b3bafc0883630b0b"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/navigator/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/navigator/Makefile",
+      "sha256": "64a71556aac0c79ab86e0e646242e62a8715fce2682fc896f24a200a7fdd38aa"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/navigator/MissionFeasibility/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/navigator/MissionFeasibility/Makefile",
+      "sha256": "dd31b862ce6c6023065849fafed5e16dc2ab0deb968fdc606997fb6de0e9a34f"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/payload_deliverer/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/payload_deliverer/Makefile",
+      "sha256": "f62e6ace2d9547b4418bbab10efdf4a617801b33ee473cf83daf7488f68925b9"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rc_update/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rc_update/Makefile",
+      "sha256": "3f552d43303316aad85af3caecfe541b96038be8a72ea535015fbe075f367ee1"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/replay/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/replay/Makefile",
+      "sha256": "0427aaea7e2f93bac235bc9bdb010b5d558fa01e3c1c1b246f145698233b9a3c"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_ackermann/AckermannActControl/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_ackermann/AckermannActControl/Makefile",
+      "sha256": "7287c33b3a059169f4f00e30e17de5330a7831c4227abccd0b995e4bd458b736"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_ackermann/AckermannAttControl/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_ackermann/AckermannAttControl/Makefile",
+      "sha256": "9cc0bedc0a53dde76ada5862fd80c1f8f0006a4cacefb7cc4a130b702b5fbd92"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_ackermann/AckermannDriveModes/AckermannAutoMode/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_ackermann/AckermannDriveModes/AckermannAutoMode/Makefile",
+      "sha256": "dab5b6578ab043125786ac5dbaa9e311e757b4163c2623be67ad7c0f906a4676"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_ackermann/AckermannDriveModes/AckermannManualMode/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_ackermann/AckermannDriveModes/AckermannManualMode/Makefile",
+      "sha256": "85fd02194d5b3e5457675ab50e8ab02fd44bf2c9f658a6036e15a6bf8cd72b43"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_ackermann/AckermannDriveModes/AckermannOffboardMode/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_ackermann/AckermannDriveModes/AckermannOffboardMode/Makefile",
+      "sha256": "b51af946d7c899490e5aad95fa4c25ec5f662c0150122bdfa407853f8f29080c"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_ackermann/AckermannDriveModes/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_ackermann/AckermannDriveModes/Makefile",
+      "sha256": "b990983262bebbec345d2394c6971d26a2d6714c6f2669556862ff6d4c4fbf83"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_ackermann/AckermannPosControl/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_ackermann/AckermannPosControl/Makefile",
+      "sha256": "c72bf1401db3297bc698edd2192d287d02718f8c16c1400e0e88c65a50c99aa0"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_ackermann/AckermannRateControl/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_ackermann/AckermannRateControl/Makefile",
+      "sha256": "2f5c2cc3593da1c3dd18faeb8336cc97f13a22a99be952007c314f87e4ebe0e0"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_ackermann/AckermannSpeedControl/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_ackermann/AckermannSpeedControl/Makefile",
+      "sha256": "040e6fb0769918a95e03957a661e68623266f90e08ba51fb404e085af80a3818"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_ackermann/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_ackermann/Makefile",
+      "sha256": "e46fa8113fb2de246e46db4af9c36072f4ad3615eface11c9d029e33b81920fb"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_differential/DifferentialActControl/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_differential/DifferentialActControl/Makefile",
+      "sha256": "dc9153ba777e30564b6123ca138108d9e3407f67bd53cab85d32bbd0cba76dbe"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_differential/DifferentialAttControl/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_differential/DifferentialAttControl/Makefile",
+      "sha256": "637743f983ea5ff2b4a08553fb8ee1eab95a04f086bdc9aa923bf48756d675b4"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_differential/DifferentialDriveModes/DifferentialAutoMode/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_differential/DifferentialDriveModes/DifferentialAutoMode/Makefile",
+      "sha256": "3d48f09d5acced7f9ca204995721ed7faa223058cdfe371a415f73a112ddaa33"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_differential/DifferentialDriveModes/DifferentialManualMode/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_differential/DifferentialDriveModes/DifferentialManualMode/Makefile",
+      "sha256": "323f1ad8a2245397e5ad804ce328b9333eca884e1eb26546762a035f856ebd84"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_differential/DifferentialDriveModes/DifferentialOffboardMode/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_differential/DifferentialDriveModes/DifferentialOffboardMode/Makefile",
+      "sha256": "ad50a747ed3b1bf1c53f33ec14f5cd117d567e02099116da4df7af82832e090c"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_differential/DifferentialDriveModes/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_differential/DifferentialDriveModes/Makefile",
+      "sha256": "eb589a9859b79e154fe1a7d22e582f9574a606332ed51ff0617279cdcb04b398"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_differential/DifferentialPosControl/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_differential/DifferentialPosControl/Makefile",
+      "sha256": "1c574ed3d5d68a3b3d785cf391c44b7faed5d5905456537fe8a627099de14251"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_differential/DifferentialRateControl/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_differential/DifferentialRateControl/Makefile",
+      "sha256": "7e9eb993616cfc48d4ea530c0ce57516205e7c6c20a9ef779424bfc768b73885"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_differential/DifferentialSpeedControl/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_differential/DifferentialSpeedControl/Makefile",
+      "sha256": "9f3900b3e5c0e496c3a721dfb4b4a7a672357106ba8f64e8f06260e8b748c761"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_differential/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_differential/Makefile",
+      "sha256": "83353f0e37f75f86c137cbe4b2653afeb51577bb8e0291667a442eaf14141d7e"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_mecanum/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_mecanum/Makefile",
+      "sha256": "70ed7eb474b85bd1ed2c087b9681615a53ed3123ca7bd5c48e366eff5eff9b07"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_mecanum/MecanumActControl/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_mecanum/MecanumActControl/Makefile",
+      "sha256": "45c47cf4a54be0c99715f753ff7b7c68ee656260e5304ea7858613ec0ddd5a79"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_mecanum/MecanumAttControl/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_mecanum/MecanumAttControl/Makefile",
+      "sha256": "a6c4476636e943306d7f40a805005b73bfee33fa4606d14d50940110dbd14c9d"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_mecanum/MecanumDriveModes/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_mecanum/MecanumDriveModes/Makefile",
+      "sha256": "e94b33a2b137f029aa46c0c763e2604693453c4b7dfe1cb748b411d529e439c4"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_mecanum/MecanumDriveModes/MecanumAutoMode/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_mecanum/MecanumDriveModes/MecanumAutoMode/Makefile",
+      "sha256": "0514e44d2f4a9d138a84a733ce86cada581a3ea5385cc430b0ad8e51d20c1dec"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_mecanum/MecanumDriveModes/MecanumManualMode/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_mecanum/MecanumDriveModes/MecanumManualMode/Makefile",
+      "sha256": "0cd10e68d27363b7579ffb1cfacbf8bbd26511e65fb31195e572d18b51dc4c1c"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_mecanum/MecanumDriveModes/MecanumOffboardMode/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_mecanum/MecanumDriveModes/MecanumOffboardMode/Makefile",
+      "sha256": "ae4e932dd84c77820188040b7023752bf64152866ffa3f4c38a57dfcdd631bd0"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_mecanum/MecanumPosControl/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_mecanum/MecanumPosControl/Makefile",
+      "sha256": "352a7d2f2656970d2d845f7c0eb18fa5bc696a3c6ba3defe8a4ed2a0e2646114"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_mecanum/MecanumRateControl/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_mecanum/MecanumRateControl/Makefile",
+      "sha256": "faa5a22d73295b36bf0c238a45d2751232706fcf15e8b89664ee9e973c940708"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/rover_mecanum/MecanumSpeedControl/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/rover_mecanum/MecanumSpeedControl/Makefile",
+      "sha256": "ba0253f7862ba425dcc69e87b475decffb406571553e2d6cf523c753bb10de79"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/sensors/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/sensors/Makefile",
+      "sha256": "9ac89da75d8f592aa85e65f1ba4dc25908e70e73e06ee7550edf1d8b45da9037"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/sensors/data_validator/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/sensors/data_validator/Makefile",
+      "sha256": "2c594607fe94b8a949030ac2515ce0371235f32454076343e4860bb9ba45f838"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/sensors/vehicle_acceleration/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/sensors/vehicle_acceleration/Makefile",
+      "sha256": "5aa0367d7166977f2a84c32ee68c1ba590488b7d8dcb0fb7eeaf38a8f07e70d3"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/sensors/vehicle_air_data/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/sensors/vehicle_air_data/Makefile",
+      "sha256": "1109ac9e084dbe1d10eca49040cf20e869b43c88e5bdbd188d210331432595a6"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/sensors/vehicle_angular_velocity/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/sensors/vehicle_angular_velocity/Makefile",
+      "sha256": "f6b22af71a87c08f72bd43164246d316d0e442bbe45e31db4416add7f40b6070"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/sensors/vehicle_gps_position/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/sensors/vehicle_gps_position/Makefile",
+      "sha256": "817949030d03f4416acba7414ad9e419f53866a55e3393269e2c58904a018edb"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/sensors/vehicle_imu/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/sensors/vehicle_imu/Makefile",
+      "sha256": "92b81e66e75025d1ac558efb8638b7dc9bcd255e3ae0f3f422ed37e9b072fa12"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/sensors/vehicle_magnetometer/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/sensors/vehicle_magnetometer/Makefile",
+      "sha256": "05efcbeaed814098c8a50123a9b786324b196039a22208248caa15c0c9c4aa50"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/sensors/vehicle_optical_flow/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/sensors/vehicle_optical_flow/Makefile",
+      "sha256": "20fc8cbe95a788aa805e090b3f6524e4a7c2e50fc1ed280281b3168b283f7aae"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/simulation/battery_simulator/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/simulation/battery_simulator/Makefile",
+      "sha256": "59cafcb62f4972fbd66d697b35f67b0f55444c7907e6b617c037beae1e693e3c"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/simulation/gz_bridge/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/simulation/gz_bridge/Makefile",
+      "sha256": "a653bf52cf2109c0552b9070150afcb1d16c26f1dcb6444fb4db0ebe29e5ca6e"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/simulation/gz_msgs/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/simulation/gz_msgs/Makefile",
+      "sha256": "1128abc4891f2c89157b71eb027ad2cb28fe47f532a9315ea976d5d05ec7ab5d"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/simulation/gz_plugins/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/simulation/gz_plugins/Makefile",
+      "sha256": "d592d6546ed89b4afafd3b95701105384099078a5b2b3f09a0c9777766113bd8"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/simulation/pwm_out_sim/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/simulation/pwm_out_sim/Makefile",
+      "sha256": "fe9191967bc5f64560a816fb7c17b440efa70e75edf2b08ec90effafd1e34256"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/simulation/sensor_agp_sim/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/simulation/sensor_agp_sim/Makefile",
+      "sha256": "c5e1a4f2173e12de2e1d595b234ed3f68bd9088a37620146940de8713f337b8a"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/simulation/sensor_airspeed_sim/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/simulation/sensor_airspeed_sim/Makefile",
+      "sha256": "2161cf3a63609154ed0cc4b0ac6a3db36f2b0dfd166a793a103349401caca306"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/simulation/sensor_baro_sim/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/simulation/sensor_baro_sim/Makefile",
+      "sha256": "a0b55f9c9185c1ed6672358b0eabeb4e2bae2212d6c0cd637c18d177abe206bb"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/simulation/sensor_gps_sim/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/simulation/sensor_gps_sim/Makefile",
+      "sha256": "d8ee87ba24452607811faeb775ed5fe73b7efbf34b721b64546abafd90ad6857"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/simulation/sensor_mag_sim/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/simulation/sensor_mag_sim/Makefile",
+      "sha256": "1caf5b5b93f985c5afc20ea34e956db009d3c8167f6ef4403a6b2c808176b574"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/simulation/simulator_mavlink/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/simulation/simulator_mavlink/Makefile",
+      "sha256": "0e8dd420d627bfba4b4d3f7289c375201530fa8ea0eb006fe1cd69bde529da07"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/simulation/simulator_sih/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/simulation/simulator_sih/Makefile",
+      "sha256": "2449661b7b67b3d6c8edb22ea1095f27300bf121112d7c2dabafd9629d5e0ed1"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/simulation/system_power_simulator/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/simulation/system_power_simulator/Makefile",
+      "sha256": "2962e2acc9d775319051436644078ace53881fb4ea355c966e459085f38423a2"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/temperature_compensation/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/temperature_compensation/Makefile",
+      "sha256": "67b4170d3d7bde801feadbd785bdfb8dc213ec4e405a55742b00ca990652e8d1"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/uuv_att_control/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/uuv_att_control/Makefile",
+      "sha256": "6274c2bc3ac24f274179d8c24a394dac40ceb37696b2b6b3e781bb8711e4163a"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/uuv_pos_control/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/uuv_pos_control/Makefile",
+      "sha256": "5aaf0ed4b4b40153269b14cbb68fbf36b0c82576e29332823a553983930ca99d"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/uxrce_dds_client/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/uxrce_dds_client/Makefile",
+      "sha256": "5cdf461c04203a79759ded4d9300849784e30684a395ca47c82486e8d86a31d3"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-stamp/libmicroxrceddsclient_project-build-RelWithDebInfo.cmake",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-stamp/libmicroxrceddsclient_project-build-RelWithDebInfo.cmake",
+      "sha256": "8750f27ecac17acf2e7d79c8ea9ecee2fa88a907a0309dfaef0058b040a4ecb6"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-stamp/libmicroxrceddsclient_project-configure-RelWithDebInfo.cmake",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-stamp/libmicroxrceddsclient_project-configure-RelWithDebInfo.cmake",
+      "sha256": "2284e320a33c0d2161711a98b8fab321d043545ad97f72be6339358282aa125e"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-stamp/libmicroxrceddsclient_project-install-RelWithDebInfo.cmake",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-stamp/libmicroxrceddsclient_project-install-RelWithDebInfo.cmake",
+      "sha256": "d6388f7a6ba957db15695cf507a091b9a01cf7f447dbffed2d97585c64102129"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-stamp/libmicroxrceddsclient_project-patch-info.txt",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-stamp/libmicroxrceddsclient_project-patch-info.txt",
+      "sha256": "79583c16247fd8590534e74bcc506a71154848e922e09191eba1bac3695748a3"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-stamp/libmicroxrceddsclient_project-source_dirinfo.txt",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-stamp/libmicroxrceddsclient_project-source_dirinfo.txt",
+      "sha256": "64b2e43d25fb421ac5fa39a219072f63bde98655e0c84f7e9ffff50ff53663eb"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-stamp/libmicroxrceddsclient_project-update-info.txt",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/uxrce_dds_client/src/libmicroxrceddsclient_project-stamp/libmicroxrceddsclient_project-update-info.txt",
+      "sha256": "b50e078a94b681e3a64bc1f1a1068ffcb8e31b7db3a987433ddec824ebdc987d"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/uxrce_dds_client/tmp/libmicroxrceddsclient_project-cache-RelWithDebInfo.cmake",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/uxrce_dds_client/tmp/libmicroxrceddsclient_project-cache-RelWithDebInfo.cmake",
+      "sha256": "6a0455ce19eb9c8d26b59c2d456b8d49d54e76982cf6bc9f5229685eb57886ca"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/uxrce_dds_client/tmp/libmicroxrceddsclient_project-cfgcmd.txt",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/uxrce_dds_client/tmp/libmicroxrceddsclient_project-cfgcmd.txt",
+      "sha256": "a03bfa45ee9b6af64ff94868296a14dab0ccbd40bf69f6172489b31ae7c6c6ba"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/uxrce_dds_client/tmp/libmicroxrceddsclient_project-mkdirs.cmake",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/uxrce_dds_client/tmp/libmicroxrceddsclient_project-mkdirs.cmake",
+      "sha256": "f99d6d8a7f3526cc9877dc13183ce0b7bee15c4d8e2062083551b6d2ba7ce6cc"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/vision_target_estimator/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/vision_target_estimator/Makefile",
+      "sha256": "a57dfab0633fefcb3205d1a51fc061ac7a230fdfb408cc58c94c0e00261df837"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/modules/vtol_att_control/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/modules/vtol_att_control/Makefile",
+      "sha256": "7781b4d02bf6f4c6c96e2e74c72327ee3d25a2557598676abcd84e828f4c5eae"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/systemcmds/actuator_test/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/systemcmds/actuator_test/Makefile",
+      "sha256": "42f38c7a89b7140b9bd38ab1ebbe7630328e5750039d14940615ed28bed44c2e"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/systemcmds/bsondump/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/systemcmds/bsondump/Makefile",
+      "sha256": "2f696483a24d3ea33be75f2fee837f7cc41282d76e08f20926c12fabab1c51e6"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/systemcmds/dyn/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/systemcmds/dyn/Makefile",
+      "sha256": "e069b756bdecfa37d6ea363590224b8c09439620e30a45cefacf9e051f8d8a06"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/systemcmds/failure/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/systemcmds/failure/Makefile",
+      "sha256": "62e61e40942ae9843ddfa3636ea7dd0abbda70755aa0a39ddb58b21a0f5e99b0"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/systemcmds/led_control/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/systemcmds/led_control/Makefile",
+      "sha256": "26608cfcebeac2f1dfba0dd6a4e4faa360725551a41f1880dd40734223030aab"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/systemcmds/param/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/systemcmds/param/Makefile",
+      "sha256": "8f13b1e5e6da56747287ca5e0c735299aa3288874e83049e632a766075ab605a"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/systemcmds/perf/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/systemcmds/perf/Makefile",
+      "sha256": "88152ac21a2fc915fb35e8106a5dfaff26d354ae72eef51c386f482dc2a1f0ee"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/systemcmds/sd_bench/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/systemcmds/sd_bench/Makefile",
+      "sha256": "8b2a66dcd1419237aab3ebdbc24e251cdd1a4e04767c8b1c6d50f6b883b3d411"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/systemcmds/shutdown/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/systemcmds/shutdown/Makefile",
+      "sha256": "e22fbff58b43ac297d998a810aa2865ce49f66c853f761559dff858a152c5105"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/systemcmds/system_time/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/systemcmds/system_time/Makefile",
+      "sha256": "950c3ae8fa3a4da942b9a46162ff78acf20226f53e381030968b65b5a97a507f"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/systemcmds/tests/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/systemcmds/tests/Makefile",
+      "sha256": "040c2efbade1c06533a11d30bdd054c24e4c0a19642cba1e3f6e22181562c9a7"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/systemcmds/tests/hrt_test/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/systemcmds/tests/hrt_test/Makefile",
+      "sha256": "69b8b2dfe9ef68c70f030043c16c42fb6adcd5a392bed7203fed2a5a85d610f9"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/systemcmds/topic_listener/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/systemcmds/topic_listener/Makefile",
+      "sha256": "6e6ab34fb949393e2d68fb28efa7ddde4648500ee44f3b7a782d48b0e36e9161"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/systemcmds/tune_control/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/systemcmds/tune_control/Makefile",
+      "sha256": "7dd8fe81f0229f089d50957a2e8b4ce9bf99f7bfc70402ab2f7547a282335efb"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/systemcmds/uorb/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/systemcmds/uorb/Makefile",
+      "sha256": "0924d65d25edb7f0ccbe56fe528c0fa21f83af81a9c246472248eca41924f14b"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/systemcmds/ver/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/systemcmds/ver/Makefile",
+      "sha256": "14ed852642e0abc2da2fb07f0a6ac20e96a1be4668a0995f3f22db2e397d32e3"
+    },
+    {
+      "action": "archive_generated",
+      "from": "src/systemcmds/work_queue/Makefile",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "src/systemcmds/work_queue/Makefile",
+      "sha256": "4bd97fdaec6e5974894ef0ea023cd130ab19932102d4a294ef19e0d2c1df0913"
+    },
+    {
+      "action": "archive_generated",
+      "from": "CPackConfig.cmake",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "CPackConfig.cmake",
+      "sha256": "6cdc8fea74cea34f972f5743d4e4312602227131b77b19942ea3f3914650c83d"
+    },
+    {
+      "action": "archive_generated",
+      "from": "CPackSourceConfig.cmake",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "CPackSourceConfig.cmake",
+      "sha256": "2382d56c1944017955463d2c45f6e5709eb25410633c7b5b4e4a03f838918778"
+    },
+    {
+      "action": "archive_generated",
+      "from": "cmake_install.cmake",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "cmake_install.cmake",
+      "sha256": "087cb83e3ba786f37eca11746bcae7432275d295a8c131f5e20aa1652ef41cf2"
+    },
+    {
+      "action": "archive_generated",
+      "from": "compile_commands.json",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "compile_commands.json",
+      "sha256": "2e88a240420d13ee57aac127c3bc3006c001625bfc4e7458b35dbfa75e34d4c1"
+    },
+    {
+      "action": "archive_generated",
+      "from": "boardconfig",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "boardconfig",
+      "sha256": "b31f480b4466e199ffb2e18d82d1a8fd4a0bbd27412ca084b9cec552cefb7622"
+    },
+    {
+      "action": "archive_generated",
+      "from": "config_module_list.txt",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "config_module_list.txt",
+      "sha256": "4b97d46d8188cf67409b3441d5145dd7b72689b8cc84b6a0c934fd011c6a47ae"
+    },
+    {
+      "action": "archive_generated",
+      "from": "px4_boardconfig.h",
+      "archive": "archive/reorganization/build-residue.tar.gz",
+      "member": "px4_boardconfig.h",
+      "sha256": "7a04c45f371a83bcdb7019430321ef328a5f5853bf34ccc51d03e1c6bd434c8d"
+    }
+  ],
+  "removed_reproducible": [
+    ".DS_Store",
+    "docs/.DS_Store",
+    "etc/.DS_Store",
+    "external/.DS_Store",
+    "__pycache__",
+    "archive/legacy/swarm/__pycache__"
+  ]
+}

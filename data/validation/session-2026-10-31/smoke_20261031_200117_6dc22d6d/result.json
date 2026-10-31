@@ -1,0 +1,20 @@
+{
+  "security": "chacha20",
+  "drones": 4,
+  "heartbeat_system_ids": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "ping_reply_system_ids": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "launcher_exit_code": 0,
+  "timed_out": false,
+  "passed": true,
+  "elapsed_seconds": 17.154
+}

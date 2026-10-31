@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-31",
+  "project_tests": {
+    "command": "python3 -m unittest discover -s tests -v",
+    "passed": 25,
+    "failed": 0
+  },
+  "native_smoke_runs": [
+    {
+      "evidence": "data/validation/session-2026-10-31/smoke_20261031_195844_825e244e/result.json",
+      "security": "baseline",
+      "drones": 2,
+      "heartbeat_system_ids": [
+        1,
+        2
+      ],
+      "ping_reply_system_ids": [
+        1,
+        2
+      ],
+      "launcher_exit_code": 0,
+      "timed_out": false,
+      "passed": true,
+      "elapsed_seconds": 17.053,
+      "original_local_evidence": "runs/smoke_20261031_195844_825e244e/result.json"
+    },
+    {
+      "evidence": "data/validation/session-2026-10-31/smoke_20261031_195911_f8d2367b/result.json",
+      "security": "hmac",
+      "drones": 2,
+      "heartbeat_system_ids": [
+        1,
+        2
+      ],
+      "ping_reply_system_ids": [
+        1,
+        2
+      ],
+      "launcher_exit_code": 0,
+      "timed_out": false,
+      "passed": true,
+      "elapsed_seconds": 16.604,
+      "original_local_evidence": "runs/smoke_20261031_195911_f8d2367b/result.json"
+    },
+    {
+      "evidence": "data/validation/session-2026-10-31/smoke_20261031_195951_7cc37854/result.json",
+      "security": "chacha20",
+      "drones": 2,
+      "heartbeat_system_ids": [
+        1,
+        2
+      ],
+      "ping_reply_system_ids": [
+        1,
+        2
+      ],
+      "launcher_exit_code": 0,
+      "timed_out": false,
+      "passed": true,
+      "elapsed_seconds": 16.611,
+      "original_local_evidence": "runs/smoke_20261031_195951_7cc37854/result.json"
+    },
+    {
+      "evidence": "data/validation/session-2026-10-31/smoke_20261031_200117_6dc22d6d/result.json",
+      "security": "chacha20",
+      "drones": 4,
+      "heartbeat_system_ids": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "ping_reply_system_ids": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "launcher_exit_code": 0,
+      "timed_out": false,
+      "passed": true,
+      "elapsed_seconds": 17.154,
+      "original_local_evidence": "runs/smoke_20261031_200117_6dc22d6d/result.json"
+    }
+  ],
+  "benchmark": {
+    "evidence": "data/validation/session-2026-10-31/benchmark.json",
+    "sizes": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "steps_per_size_and_mode": 100,
+    "benign_sent": 2100,
+    "benign_accepted": 2100,
+    "protected_probes_rejected": 5600,
+    "baseline_replay_injection_accepted": 1400,
+    "tamper_rejected": 2100,
+    "original_local_evidence": "runs/benchmark.json"
+  },
+  "original_file_checksums_verified": 340,
+  "git_index_unchanged": true,
+  "qgc_gui_tested": false,
+  "flight_commands_sent": false,
+  "uploaded_evidence_manifest": "data/validation/session-2026-10-31/evidence-manifest.json"
+}
