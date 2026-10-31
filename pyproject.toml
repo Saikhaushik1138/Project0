@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "project0-uav-security"
+version = "0.2.0"
+description = "An educational authenticated-encryption lab for UAV communication research"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["cryptography>=46,<51"]
+
+[project.scripts]
+project0 = "project0.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
