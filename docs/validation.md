@@ -75,10 +75,18 @@ and private-key Git exclusions were checked.
 QGroundControl's graphical interface was not opened during testing. Its
 standard UDP interface was exercised with the protocol client. No 8–64 vehicle
 Gazebo workload, sustained flight, hardware vehicle, fresh OS installation,
-full PX4 rebuild, or remote CI run was performed. The existing native build was
+full PX4 rebuild was performed. The existing native build was
 used. Larger sizes are supported in configuration and tested at the protocol
 level, with actual simulation capacity still dependent on the host.
 
 This is a trusted-host research transport. The [security boundary](architecture.md)
 explains raw PX4 ports and plaintext endpoints. Historical manuscript results
 were not reclassified as newly reproduced measurements.
+
+## GitHub publication check
+
+During the subsequent upload, all 25 project tests also passed on GitHub's Linux
+runner. The importer verified the complete Git bundle checksum, ran the tests
+and PX4 version-tag validator, published the snapshot, and removed its temporary
+transfer branch. The published Git tree matched the prepared local snapshot
+exactly. See the [successful GitHub run](https://github.com/Saikhaushik1138/Project0/actions/runs/41214165874).
